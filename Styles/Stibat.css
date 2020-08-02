@@ -1,0 +1,1068 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body{
+	background-color: #A7B939;
+	font-family: "Roboto", serif;
+	margin: 0px;
+	font-style: normal;
+}
+
+header{
+	background-color: #A7B939;
+	color: white;
+}
+
+.header-box{
+	background-color: #A7B939;
+	color: white; 
+	padding-left: 18%;
+	padding-right: 18%;
+}
+
+
+.MainLogo{
+	width: 50px;
+}
+
+footer{
+	padding-left: 18%;
+	padding-right: 18%;
+	background-color: white;
+	margin-top: 100px;
+}
+
+h1{
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 110%;
+}
+
+h2{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+h3{
+	font-size: 36px;
+	font-weight: 700;
+}
+
+h4{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+p{
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.Menu{
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	text-align: right;
+}
+
+.flex-item:nth-of-type(1) { order: 1; }
+.flex-item:nth-of-type(2) { order: 2; }
+
+
+.NaamLogo{
+	font-size: 16px;
+}
+
+.Explain{
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding-left: 18%;
+	padding-right: 18%;
+}
+
+.ButtonWhite{
+	width: 320px;
+	height: 50px;
+	color: #A7B939;
+	background: white;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	border: none; 
+}
+
+.WebsiteButton{
+	width: 320px;
+	height: 50px;
+	color: #A7B939;
+	background: white;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	border: none; 
+	margin-top: 50px;
+	margin-bottom: 125px;
+
+}
+
+.WebsiteButton:hover{
+	background-color: #A7B939;
+	color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-color: white; 
+	outline: none;
+}
+
+.WebsiteButton:focus{
+	outline: none;
+}
+
+
+.ButtonBlue{
+	width: 320px;
+	height: 50px;
+	color: white;
+	background: #667EFF;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	border: none; 
+}
+
+.ButtonBlue:hover{
+	background-color: white;
+	color: #667EFF;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #667EFF; 
+	outline: none;
+}
+
+.ButtonBlue:focus{
+	outline: none;
+}
+
+
+.Intro{
+	margin-top: 150px;
+
+}
+
+.Selfie{
+	margin-top: 150px;
+}
+
+
+.InfoLeft{
+
+	padding-top: 75px;
+	padding-bottom: 0px; 
+	max-width: 557px;
+}
+
+.InfoRight{
+
+
+	padding-top: 75px;
+	padding-bottom: 0px; 
+	max-width: 557px;
+}
+
+h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h4{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.UxInfo1{
+	margin-top: 30px;
+	margin-bottom: 75px;
+	line-height: 30px;
+	max-width: 557px;
+	height: 140px;
+}
+
+.UxInfo2{
+	margin-top: 30px;
+	margin-bottom: 75px;
+	line-height: 30px;
+	max-width: 557px;
+	height: 140px;
+}
+
+
+.Inleiding{
+	margin-top: 60px;
+	margin-bottom: 0px;
+	max-width: 555px;
+	height: auto;
+	line-height: 30px;
+}
+
+.flex-container{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	align-content: flex-start;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+ul{
+	list-style: none;
+}
+
+.ProjectFlexbox{
+	padding-left: 18.5%;
+	padding-right: 18.5%;
+	margin-top: 50px;
+}
+
+.Uitleg{
+	flex-flow: row;
+}
+
+
+
+.Contact{
+	padding-left: 18.5%;
+	padding-right: 18.5%;
+}
+
+
+.Title{
+	margin-top: 200px;
+} 
+
+.ButtonViewMore{
+	margin-top: 200px;
+}
+
+.imgdavepf{
+	padding-top: 50px;
+	width: 100%;
+}
+
+.Socials{
+	text-align: center;
+}
+
+.ImgSocial{
+	padding-top: 30px;
+	display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+.ImgSocialHover{
+	padding-top: 30px;
+	display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 50px;
+    z-index: 99;
+}
+
+
+.NormalFooter{
+	padding-top: 30px;
+	display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+.HoverFooter{
+	padding-top: 30px;
+	display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 50px;
+    z-index: 99;
+}
+
+
+.NormalFooter:hover .ImgSocial{
+    display: none;
+
+}
+
+.NormalFooter .ImgSocialHover{
+    display: none;
+}
+
+.NormalFooter:hover .ImgSocialHover{
+    display: inline;
+
+}
+
+.NormalFooter .ImgSocial{
+    display: inline;
+}
+
+
+
+
+
+.Contact{
+	margin-top: 200px;
+	margin-bottom: 0px;
+}
+
+.TelefoonMail{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.ContactInfo{
+	margin-top: 20px;
+}
+
+.ContactIcon{
+	margin-right: 10px;
+}
+
+.Message{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	max-width: 619px;
+	height: 50px;
+	line-height: 30px;
+}
+
+.container{
+	height: 530px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	width: 100%;
+	max-width: 620px;
+	padding: 0px;
+	padding-bottom: 20px; 
+	border: none; 
+	border-bottom: 3px solid black; 
+  	border-radius: 0px; 
+  	box-sizing: border-box; 
+  	margin-bottom: 16px; 
+  	resize: vertical; 
+  	color: black;
+	font-family: "Roboto", serif;
+	font-style: normal;
+	margin-bottom: 0px;
+	outline: none;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	width: 320px;
+	height: 50px;
+	color: white;
+	background-color: #667EFF;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	border: none; 
+  	cursor: pointer;
+  	margin-right: 100%;
+  	margin-bottom: 0px;
+}
+
+/* When moving the mouse over the submit button, add a dark blue color */
+input[type=submit]:hover {
+  	background-color: white;
+  	border-width: 3px;
+  	color: #667EFF;
+  	border-color: #667EFF;
+  	margin-bottom: 0px;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  	padding: 0px;
+}
+
+.TextfieldName{
+	margin-top: 50px;
+	margin-bottom: 0px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.TextfieldMail{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.TextfieldLong{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+footer{
+	background-color: white;
+	color: #A7B939;
+}
+
+.FooterLink{
+	font-size: 16px;
+	font-weight: 300;
+	color: #A7B939;
+	text-decoration: none;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.FooterLink:Hover{
+	text-decoration: underline; 	
+}
+
+.Pages{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+
+
+
+.flex-item1{
+  	position: relative;
+  	width: auto;
+  	height: auto;
+}
+
+.img__description {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	background: rgba(255, 255, 255, 0.75);
+  	color: black;
+  	font-size: 36px;
+  	font-weight: 700;
+  	visibility: hidden;
+  	opacity: 0;
+  	margin-top: 50px;
+  	margin-bottom: 4px;
+  	text-align: center;
+  	padding-top: 130px;
+  	padding-left: 40px;
+  	padding-right: 40px;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.flex-item1:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+nav{
+  background: #A7B939;
+  margin-left: 18%;
+  margin-right: 18%;
+  padding: 0px;
+
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0%;
+  margin-top: 0px;
+}
+nav ul li{
+  padding: 50px 0;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+nav ul li.items{
+  position: relative;
+  width: auto;
+  margin: 0 16px;
+  text-align: center;
+  order: 3;
+  font-weight: 700;
+}
+nav ul li.items:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 5px;
+  background: white;
+  height: 2px;
+  width: 100%;
+
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+nav ul li.items:hover:after{
+  opacity: 1;
+  bottom: 10px;
+}
+nav ul li.logo{
+  flex: 1;
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+  cursor: default;
+  user-select: none;
+}
+nav ul li a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: .4s;
+}
+nav ul li:hover a{
+  color: white;
+}
+nav ul li i{
+  font-size: 23px;
+}
+nav ul li.btn{
+  display: none;
+}
+nav ul li.btn.hide i:before{
+  content: '\f00d';
+}
+
+
+.Beschrijving{
+	color: white;
+	flex-flow: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: space-between;
+
+}
+
+.Description{
+	width: 320px;
+	line-height: 30px;
+	min-width: 320px;
+	text-align: left;
+}
+
+.flex-item5{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+
+}
+
+
+
+@media screen and (max-width: 1740px) {
+
+	.flex-item1{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+	.UxInfo1{
+		margin-bottom: 37px;
+		text-align: left;
+		min-width: 555px;
+		max-width: 100%;
+		height: auto; 
+	}
+
+	.UxInfo2{
+		margin-bottom: 37px;
+		text-align: left;
+		min-width: 555px;
+		max-width: 100%;
+		height: auto;  		
+	}
+
+	.flex-container.CenterClass{
+		text-align: center;
+	}
+
+	.InfoLeft{
+		max-width: none;
+	}
+
+	.InfoRight{
+		max-width: none;
+		padding-bottom: 75px;
+	}
+
+}	
+
+
+
+
+
+@media screen and (max-width: 1620px) {
+
+	h1{
+		text-align: center;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	.Inleiding{
+		text-align: left;
+		min-width: 555px;
+		max-width: 100%
+	}
+	
+	.Uitleg{
+		flex-flow: column;
+	}
+
+	nav{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	nav ul{
+		padding-left: 18.5%;
+    	padding-right: 18.5%;
+	}
+
+	.flex-item:nth-of-type(1) { order: 1; }
+	.flex-item:nth-of-type(2) { order: 2; }
+
+
+	.flex-item{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.flex-item1{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.ButtonViewMore{
+		text-align: right;
+	}
+
+	.Title{
+		text-align: left;
+	}
+
+	.Intro{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	.Selfie{
+		margin-top: 125px;
+	}
+
+	.UxInfo1{
+		margin-bottom: 37px;
+		text-align: left;
+		min-width: 555px;
+		max-width: 100%;
+		height: auto; 
+	}
+
+	.UxInfo2{
+		margin-bottom: 37px;
+		text-align: left;
+		min-width: 555px;
+		max-width: 100%;
+		height: auto;  		
+	}
+
+	.flex-container{
+		text-align: center;
+	}
+
+	.InfoLeft{
+		max-width: none;
+	}
+
+	.InfoRight{
+		max-width: none;
+		padding-bottom: 75px;
+	}
+
+
+}
+
+
+
+
+/* onderste tekst wordt gecentered */
+@media screen and (max-width: 1523px) {
+	.Description{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+
+@media screen and (max-width: 1050px) {
+	.Description{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+	}
+
+	.ProjectFlexbox{
+		 margin-top: 0px;
+	}	
+}
+/* onderste tekst wordt gecentered */
+
+
+
+
+/* navbalk to menu */
+@media all and (max-width: 950px){
+  nav{
+    padding: 0px;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+  }
+
+  nav ul li.items{
+    width: 100%;
+    display: none;
+    padding-top: 50px;
+  	padding-bottom: 50px;
+  }
+
+  nav ul li.items2{
+    width: 100%;
+    display: none;
+    padding-top: 50px;
+  	padding-bottom: 200px;
+  }  
+
+
+  nav ul li.items.show{
+    display: block;
+  }
+
+  nav ul li.btn{
+    display: block;
+    margin-right: 5.5%;
+  }
+
+  nav ul li.items:hover{
+    border-radius: 5px;
+  }
+  nav ul li.items:hover:after{
+    opacity: 0;
+  }
+
+  .fas{
+  	font-size: 40px;
+  }
+
+
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 900px) {
+
+
+	body{
+		align-content: center;
+	}
+
+	h1{
+		font-size: 48px;
+		max-width: 100%;
+		line-height: 110%;
+		text-align: center;
+	}
+
+	h2{
+		font-size: 18px;
+		line-height: 26px;
+		text-align: center;
+	}
+
+
+
+	.Explain{
+		padding-left: 5.5%;
+		padding-right: 5.5%;
+	}
+
+	.Container{
+		padding-left: 5.5%;
+		padding-right: 5.5%;
+	}
+
+	footer{
+		padding-left: 5.5%;
+		padding-right: 5.5%;
+	}
+
+	input[type=text], select, textarea {
+		width: 100%;
+	}
+
+
+	.MenuBalk{
+		padding-right: 5.5%;
+	}
+
+	.Message{
+
+		height: 110px;
+	}
+
+
+	.flex-container{
+		max-width: 100%;
+		text-align: left;
+	}
+
+
+	.ProfilePicture{
+		width: 90%;
+	    display: inline-block;
+	    height: auto;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.Logo {
+	    padding-left: 5.5%; 
+	    padding-right: 5.5%;
+	}
+
+	.ProjectFlexbox{
+	    padding-left: 0%; 
+	    padding-right: 0%;
+	}
+
+	.Contact{
+	    margin-top: 100px;
+	    padding-left: 5.5%; 
+	    padding-right: 5.5%;
+
+	}
+
+	.Inleiding{
+		height: auto;
+		min-width: 320px;
+	    max-width: 100%;
+	    padding-left: 5.5%;
+    	padding-right: 5.5%;
+    	margin-bottom: 40px;
+	}
+
+
+
+	.WebsiteButton{
+		margin-top: 35px;
+		margin-bottom: 50px;
+	}
+
+
+	.flex-item{
+		margin-left: 5.5%;
+		margin-right: 5.5%;
+	}
+
+
+	.flex-item:nth-of-type(1) { order: 1; }
+	.flex-item:nth-of-type(2) { order: 2; }
+
+	.flex-item2:nth-of-type(1) { order: 2; }
+	.flex-item2:nth-of-type(2) { order: 1; }
+
+	.flex-item3:nth-of-type(1) { order: 1; }
+	.flex-item3:nth-of-type(2) { order: 2; }
+
+	.Selfie{
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	.Intro{
+		margin-top: 20px;
+		max-width: 100%;
+		padding-left: 5.5%;
+	    padding-right: 5.5%;
+	}
+
+	.topnav a{
+		margin-top: 20px;
+	}
+
+	.UxInfo{
+		width: 320px;
+		height: 230px;
+	}
+
+	.InfoRight{
+		padding-top: 50px;
+	}
+
+	.InfoLeft{
+		padding-top: 50px;
+	}
+
+	.UxInfo1{
+		margin-bottom: 0px;
+		height: auto;
+		margin-bottom: 50px;
+		min-width: 320px;
+	    max-width: 100%;
+	}
+
+	.UxInfo2{
+		margin-bottom: 0px;
+		height: auto;
+		min-width: 320px;
+	    max-width: 100%;
+	}
+
+	.Title{
+		margin-top: 50px;
+	}
+
+	.ButtonViewMore{
+		margin-top: 50px;
+	}
+
+	.imgdavepf{
+		width: 100%;
+		height: auto;
+		padding-top: 10px;
+	}
+
+	.ButtonBlue{
+		margin-bottom: 40px;
+	}
+
+	.img__description{
+		margin-top: 10px;
+	}
+
+	.Message{
+		width: 320px;
+		height: 110px;
+	}
+
+	.container{
+		height: 478px;
+	}
+
+	.NormalFooter{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	nav{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	nav ul{
+	    padding-left: 5.5%;
+	    padding-right: 5.5%;
+	    margin-bottom: 0px;
+	}
+
+	nav ul li{
+		padding-top: 20px;	
+	}
+
+	.btn{
+		float: right;
+		padding-right: 2.5%;
+	}
+
+
+	.flex-item{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.header-box{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	nav ul li.btn{
+		margin-right: 0%;
+		padding-right: 0px;
+	}
+
+
+}
+
+@media screen and (max-width: 690px) {
+
+	.ButtonViewMore{
+		text-align: center;
+	}
+
+	.Center{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+
+
