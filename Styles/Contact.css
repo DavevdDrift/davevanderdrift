@@ -697,11 +697,6 @@ nav ul li.btn.hide i:before{
 	.flex-item:nth-of-type(2) { order: 1; }
 
 
-	.flex-item{
-		margin-left: auto;
-		margin-right: auto;
-	}
-
 	.flex-item1{
 		margin-left: auto;
 		margin-right: auto;
@@ -718,7 +713,7 @@ nav ul li.btn.hide i:before{
 
 	.Intro{
 		margin-top: 50px;
-		text-align: center;
+		text-align: left;
 	}
 
 	.Selfie{
@@ -742,7 +737,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.flex-container{
-		text-align: center;
+		text-align: left;
 	}
 
 	.InfoLeft{
@@ -926,10 +921,6 @@ nav ul li.btn.hide i:before{
 	.Intro{
 		margin-top: 20px;
 		max-width: 100%;
-		padding-left: 5.5%;
-	    padding-right: 5.5%;
-
-
 	}
 
 	.topnav a{
@@ -1029,8 +1020,6 @@ nav ul li.btn.hide i:before{
 	.header-box{
 		padding-left: 0px;
 		padding-right: 0px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 
 
