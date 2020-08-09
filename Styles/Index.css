@@ -5,6 +5,7 @@ body{
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
+	overflow-x: hidden;
 }
 
 header{
