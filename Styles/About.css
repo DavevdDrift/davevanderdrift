@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body{
-	background-color: #667EFF;
+	background-color: #4765FF;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
 }
 
 header{
-	background-color: #667EFF;
+	background-color: #4765FF;
 	color: white;
 }
 
 .header-box{
-	background-color: #667EFF;
+	background-color: #4765FF;
 	color: white; 
 	padding-left: 18%;
 	padding-right: 18%;
@@ -28,7 +28,7 @@ footer{
 	padding-left: 18%;
 	padding-right: 18%;
 	background-color: white;
-	color: #667EFF;
+	color: #4765FF;
 	margin-top: 200px;
 }
 
@@ -75,7 +75,7 @@ p{
 }
 
 .Explain{
-	background-color: #667EFF;
+	background-color: #4765FF;
 	color: white;
 	margin: 0px;
 	padding-left: 18%;
@@ -85,7 +85,7 @@ p{
 .ButtonWhite{
 	width: 320px;
 	height: 50px;
-	color: #667EFF;
+	color: #4765FF;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -96,7 +96,7 @@ p{
 .ButtonWhiteIntro{
 	width: 320px;
 	height: 50px;
-	color: #667EFF;
+	color: #4765FF;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -108,7 +108,7 @@ p{
 }
 
 .ButtonWhiteIntro:hover{
-	background-color: #667EFF;
+	background-color: #4765FF;
 	color: white;
 	border-width: 3px;
 	border-style: solid;
@@ -125,7 +125,7 @@ p{
 	width: 320px;
 	height: 50px;
 	color: white;
-	background: #667EFF;
+	background: #4765FF;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -134,10 +134,10 @@ p{
 
 .ButtonBlue:hover{
 	background-color: white;
-	color: #667EFF;
+	color: #4765FF;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #667EFF; 
+	border-color: #4765FF; 
 	outline: none;
 }
 
@@ -445,7 +445,7 @@ input[type=submit] {
 	width: 320px;
 	height: 50px;
 	color: white;
-	background-color: #667EFF;
+	background-color: #4765FF;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -459,8 +459,8 @@ input[type=submit] {
 input[type=submit]:hover {
   	background-color: white;
   	border-width: 3px;
-  	color: #667EFF;
-  	border-color: #667EFF;
+  	color: #4765FF;
+  	border-color: #4765FF;
   	margin-bottom: 0px;
 }
 
@@ -498,7 +498,7 @@ input[type=submit]:hover {
 .FooterLink{
 	font-size: 16px;
 	font-weight: 300;
-	color: #667EFF;
+	color: #4765FF;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -566,7 +566,7 @@ input[type=submit]:hover {
 
 
 nav{
-  background: #667EFF;
+  background: #4765FF;
   margin-left: 18%;
   margin-right: 18%;
   padding: 0px;
