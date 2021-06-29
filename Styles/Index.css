@@ -814,13 +814,13 @@ nav ul li.btn.hide i:before{
 		min-width: 320px;
 		max-width: 100%;
 		line-height: 91.5%;
-		text-align: left;
+		text-align: center;
 	}
 
 	h2{
 		font-size: 22px;
 		line-height: 26px;
-		text-align: left;
+		text-align: center;
 	}
 
 
