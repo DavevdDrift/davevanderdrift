@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body{
-	background-color: #4765FF;
+	background-color: #21468B;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
@@ -10,12 +10,12 @@ body{
 }
 
 header{
-	background-color: #4765FF;
+	background-color: #21468B;
 	color: white;
 }
 
 .header-box{
-	background-color: #4765FF;
+	background-color: #21468B;
 	color: white; 
 	padding-left: 18%;
 	padding-right: 18%;
@@ -85,7 +85,7 @@ p{
 .ButtonWhite{
 	width: 320px;
 	height: 50px;
-	color: #4765FF;
+	color: #21468B;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -96,7 +96,7 @@ p{
 .ButtonWhiteIntro{
 	width: 320px;
 	height: 50px;
-	color: #4765FF;
+	color: #21468B;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -108,7 +108,7 @@ p{
 }
 
 .ButtonWhiteIntro:hover{
-	background-color: #4765FF;
+	background-color: #21468B;
 	color: white;
 	border-width: 3px;
 	border-style: solid;
@@ -125,7 +125,7 @@ p{
 	width: 320px;
 	height: 50px;
 	color: white;
-	background: #4765FF;
+	background: #21468B;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -134,10 +134,10 @@ p{
 
 .ButtonBlue:hover{
 	background-color: white;
-	color: #4765FF;
+	color: #21468B;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #4765FF; 
+	border-color: #21468B; 
 	outline: none;
 }
 
@@ -349,7 +349,7 @@ ul{
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-	background-color: #4765FF; 
+	background-color: #21468B; 
 	width: 100%;
 	max-width: 620px;
 	padding: 0px;
@@ -368,7 +368,7 @@ input[type=text], select, textarea {
 }
 
 input[type=email], select, textarea {
-	background-color: #4765FF; 
+	background-color: #21468B; 
 	width: 100%;
 	max-width: 620px;
 	padding: 0px;
@@ -390,7 +390,7 @@ input[type=email], select, textarea {
 input[type=submit] {
 	width: 320px;
 	height: 50px;
-	color: #4765FF;
+	color: #21468B;
 	background-color: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -403,7 +403,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  	background-color: #4765FF;
+  	background-color: #21468B;
   	border-width: 3px;
   	color: white;
   	border-color: white;
@@ -441,7 +441,7 @@ input[type=submit]:hover {
 
 footer{
 	background-color: white;
-	color: #4765FF;
+	color: #21468B;
 }
 
 input{
@@ -473,7 +473,7 @@ input{
 .FooterLink{
 	font-size: 16px;
 	font-weight: 300;
-	color: #4765FF;
+	color: #21468B;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -541,7 +541,7 @@ input{
 
 
 nav{
-  background: #4765FF;
+  background: #21468B;
   margin-left: 18%;
   margin-right: 18%;
   padding: 0px;
