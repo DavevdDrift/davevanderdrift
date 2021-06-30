@@ -29,7 +29,7 @@ footer{
 	padding-left: 18%;
 	padding-right: 18%;
 	background-color: white;
-	margin-top: 100px;
+	margin-top: 160px;
 }
 
 h1{
@@ -360,14 +360,10 @@ ul{
 
 .Message{
 	margin-top: 20px;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 	max-width: 619px;
 	height: 50px;
 	line-height: 30px;
-}
-
-.container{
-	height: 530px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -375,18 +371,20 @@ input[type=text], select, textarea {
 	width: 100%;
 	max-width: 620px;
 	padding: 0px;
+	padding-top: 20px;
 	padding-bottom: 20px; 
+	padding-left: 20px;
 	border: none; 
-	border-bottom: 3px solid black; 
   	border-radius: 0px; 
-  	box-sizing: border-box; 
+  	box-sizing: border-box;
+  	background-color: #21468B; 
   	margin-bottom: 16px; 
   	resize: vertical; 
-  	color: black;
 	font-family: "Roboto", serif;
 	font-style: normal;
 	margin-bottom: 0px;
 	outline: none;
+	color: white;
 }
 
 
@@ -394,11 +392,13 @@ input[type=email], select, textarea {
 	width: 100%;
 	max-width: 620px;
 	padding: 0px;
+	padding-top: 20px;
 	padding-bottom: 20px; 
+	padding-left: 10px;
 	border: none; 
-	border-bottom: 3px solid black; 
   	border-radius: 0px; 
   	box-sizing: border-box; 
+  	background-color: #21468B; 
   	margin-bottom: 16px; 
   	resize: vertical; 
   	color: black;
@@ -406,6 +406,7 @@ input[type=email], select, textarea {
 	font-style: normal;
 	margin-bottom: 0px;
 	outline: none;
+	color: white;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -438,7 +439,7 @@ input[type=submit]:hover {
 }
 
 .TextfieldName{
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	font-weight: 300;
 	font-size: 16px;
@@ -446,7 +447,7 @@ input[type=submit]:hover {
 }
 
 .TextfieldMail{
-	margin-top: 30px;
+	margin-top: 00px;
 	margin-bottom: 0px;
 	font-weight: 300;
 	font-size: 16px;
@@ -454,7 +455,7 @@ input[type=submit]:hover {
 }
 
 .TextfieldLong{
-	margin-top: 30px;
+	margin-top: 0px;
 	margin-bottom: 30px;
 	font-weight: 300;
 	font-size: 16px;
@@ -621,6 +622,12 @@ nav ul li.btn.hide i:before{
 .MainLogo{
 	width: 50px;
 }
+
+.Placeholder{
+	font-weight: 600;
+}
+
+
 
 
 @media screen and (max-width: 1740px) {
@@ -987,10 +994,6 @@ nav ul li.btn.hide i:before{
 	.Message{
 		width: 320px;
 		height: 110px;
-	}
-
-	.container{
-		height: 478px;
 	}
 
 	.NormalFooter{
