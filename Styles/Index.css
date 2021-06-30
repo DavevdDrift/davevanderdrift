@@ -373,7 +373,7 @@ input[type=text], select, textarea {
 	padding: 0px;
 	padding-top: 20px;
 	padding-bottom: 20px; 
-	padding-left: 20px;
+	padding-left: 10px;
 	border: none; 
   	border-radius: 0px; 
   	box-sizing: border-box;
