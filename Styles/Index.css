@@ -9,12 +9,12 @@ body{
 }
 
 header{
-	background-color: #4765FF;
+	background-color: #21468B;
 	color: white;
 }
 
 .header-box{
-	background-color: #4765FF;
+	background-color: #21468B
 	color: white; 
 	padding-left: 18%;
 	padding-right: 18%;
@@ -39,7 +39,7 @@ h1{
 
 h2{
 	font-size: 24px;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 h3{
@@ -84,7 +84,7 @@ p{
 .ButtonWhite{
 	width: 320px;
 	height: 50px;
-	color: #4765FF;
+	color: #21468B;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -95,7 +95,7 @@ p{
 .ButtonWhiteIntro{
 	width: 320px;
 	height: 50px;
-	color: #4765FF;
+	color: #21468B;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -107,7 +107,7 @@ p{
 }
 
 .ButtonWhiteIntro:hover{
-	background-color: #4765FF;
+	background-color: #21468B;
 	color: white;
 	border-width: 3px;
 	border-style: solid;
@@ -124,7 +124,7 @@ p{
 	width: 320px;
 	height: 50px;
 	color: white;
-	background: #4765FF;
+	background: #21468B;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -133,10 +133,10 @@ p{
 
 .ButtonBlue:hover{
 	background-color: white;
-	color: #4765FF;
+	color: #21468B;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #4765FF; 
+	border-color: #21468B; 
 	outline: none;
 }
 
@@ -149,7 +149,7 @@ p{
 	width: 320px;
 	height: 50px;
 	color: white;
-	background: #4765FF;
+	background: #21468B;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -158,10 +158,10 @@ p{
 
 .ButtonBlueProjects:hover{
 	background-color: white;
-	color: #4765FF;
+	color: #21468B;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #4765FF; 
+	border-color: #21468B; 
 	outline: none;
 }
 
@@ -413,7 +413,7 @@ input[type=submit] {
 	width: 320px;
 	height: 50px;
 	color: white;
-	background-color: #4765FF;
+	background-color: #21468B;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -427,8 +427,8 @@ input[type=submit] {
 input[type=submit]:hover {
   	background-color: white;
   	border-width: 3px;
-  	color: #4765FF;
-  	border-color: #4765FF;
+  	color: #21468B;
+  	border-color: #21468B;
   	margin-bottom: 0px;
 }
 
@@ -462,7 +462,7 @@ input[type=submit]:hover {
 }
 
 footer{
-	background-color: #4765FF;
+	background-color: #21468B;
 	color: white;
 }
 
@@ -537,7 +537,7 @@ footer{
 
 
 nav{
-  background: #4765FF;
+  background: #21468B;
   margin-left: 18%;
   margin-right: 18%;
   padding: 0px;
@@ -614,7 +614,7 @@ nav ul li.btn.hide i:before{
 }
 
 .Wrong{
-	color: #4765FF;
+	color: #21468Bs;
 	font-weight: 700;
 }
 
@@ -814,13 +814,13 @@ nav ul li.btn.hide i:before{
 		min-width: 320px;
 		max-width: 100%;
 		line-height: 91.5%;
-		text-align: center;
+		text-align: left;
 	}
 
 	h2{
 		font-size: 22px;
 		line-height: 26px;
-		text-align: center;
+		text-align: left;
 	}
 
 
