@@ -28,11 +28,11 @@ footer{
 	padding-left: 18%;
 	padding-right: 18%;
 	background-color: white;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 
 h1{
-	font-size: 72px;
+	font-size: 96px;
 	font-weight: 700;
 	line-height: 110%;
 }
@@ -57,6 +57,12 @@ p{
 	font-size: 16px;
 	font-weight: 300;
 }
+
+#Bold{
+	font-weight: 700;
+	font-size: 24px;
+}
+
 
 .Menu{
 	font-size: 16px;
@@ -148,6 +154,7 @@ p{
 
 .Intro{
 	margin-top: 150px;
+	max-width: 567px;
 
 }
 
@@ -232,7 +239,7 @@ ul{
 .ProjectFlexbox{
 	padding-left: 18.5%;
 	padding-right: 18.5%;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .Uitleg{
@@ -849,6 +856,7 @@ nav ul li.btn.hide i:before{
 	footer{
 		padding-left: 5.5%;
 		padding-right: 5.5%;
+		margin-top: 100px;
 	}
 
 	input[type=text], select, textarea {
@@ -903,7 +911,6 @@ nav ul li.btn.hide i:before{
 	    max-width: 100%;
 	    padding-left: 5.5%;
     	padding-right: 5.5%;
-    	margin-bottom: 40px;
 	}
 
 
@@ -935,7 +942,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Intro{
-		margin-top: 20px;
+		margin-top: 60px;
 		max-width: 100%;
 		padding-left: 5.5%;
 	    padding-right: 5.5%;
@@ -984,7 +991,7 @@ nav ul li.btn.hide i:before{
 	.imgdavepf{
 		width: 100%;
 		height: auto;
-		padding-top: 10px;
+		padding-top: 60px;
 	}
 
 	.ButtonBlue{
