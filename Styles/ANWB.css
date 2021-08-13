@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body{
-	background-color: #F5BA23;
+	background-color: #8E7200;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
 }
 
 header{
-	background-color: #F5BA23;
+	background-color: #8E7200;
 	color: white;
 }
 
 .header-box{
-	background-color: #F5BA23;
+	background-color: #8E7200;
 	color: white; 
 	padding-left: 18%;
 	padding-right: 18%;
@@ -28,11 +28,11 @@ footer{
 	padding-left: 18%;
 	padding-right: 18%;
 	background-color: white;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 
 h1{
-	font-size: 72px;
+	font-size: 96px;
 	font-weight: 700;
 	line-height: 110%;
 }
@@ -57,6 +57,12 @@ p{
 	font-size: 16px;
 	font-weight: 300;
 }
+
+#Bold{
+	font-weight: 700;
+	font-size: 24px;
+}
+
 
 .Menu{
 	font-size: 16px;
@@ -148,7 +154,7 @@ p{
 
 .Intro{
 	margin-top: 150px;
-
+	max-width: 596px;
 }
 
 .Selfie{
@@ -232,7 +238,7 @@ ul{
 .ProjectFlexbox{
 	padding-left: 18.5%;
 	padding-right: 18.5%;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .Uitleg{
@@ -430,13 +436,13 @@ input[type=submit]:hover {
 
 footer{
 	background-color: white;
-	color: #F5BA23;
+	color: #8E7200;
 }
 
 .FooterLink{
 	font-size: 16px;
 	font-weight: 300;
-	color: #F5BA23;
+	color: #8E7200;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -504,7 +510,7 @@ footer{
 
 
 nav{
-  background: #F5BA23;
+  background: #8E7200;
   margin-left: 18%;
   margin-right: 18%;
   padding: 0px;
@@ -848,6 +854,7 @@ nav ul li.btn.hide i:before{
 	footer{
 		padding-left: 5.5%;
 		padding-right: 5.5%;
+		margin-top: 100px;
 	}
 
 	input[type=text], select, textarea {
@@ -902,7 +909,7 @@ nav ul li.btn.hide i:before{
 	    max-width: 100%;
 	    padding-left: 5.5%;
     	padding-right: 5.5%;
-    	margin-bottom: 40px;
+    	margin-bottom: 50px;
 	}
 
 
@@ -934,7 +941,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Intro{
-		margin-top: 20px;
+		margin-top: 60px;
 		max-width: 100%;
 		padding-left: 5.5%;
 	    padding-right: 5.5%;
@@ -1039,6 +1046,7 @@ nav ul li.btn.hide i:before{
 		padding-right: 0px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 50px;
 	}
 
 
