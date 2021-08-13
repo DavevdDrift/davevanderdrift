@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body{
-	background-color: #FF99B1;
+	background-color: #DD204E;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
 }
 
 header{
-	background-color: #FF99B1;
+	background-color: #DD204E;
 	color: white;
 }
 
 .header-box{
-	background-color: #FF99B1;
+	background-color: #DD204E;
 	color: white; 
 	padding-left: 18%;
 	padding-right: 18%;
@@ -28,11 +28,11 @@ footer{
 	padding-left: 18%;
 	padding-right: 18%;
 	background-color: white;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 
 h1{
-	font-size: 72px;
+	font-size: 96px;
 	font-weight: 700;
 	line-height: 110%;
 }
@@ -56,6 +56,11 @@ h4{
 p{
 	font-size: 16px;
 	font-weight: 300;
+}
+
+#Bold{
+	font-weight: 700;
+	font-size: 24px;
 }
 
 .Menu{
@@ -96,19 +101,19 @@ p{
 .WebsiteButton{
 	width: 320px;
 	height: 50px;
-	color: #FF99B1;
+	color: #DD204E;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
 	border: none; 
 	margin-top: 50px;
-	margin-bottom: 125px;
+	margin-bottom: 0px;
 
 }
 
 .WebsiteButton:hover{
-	background-color: #FF99B1;
+	background-color: #DD204E;
 	color: white;
 	border-width: 3px;
 	border-style: solid;
@@ -148,7 +153,7 @@ p{
 
 .Intro{
 	margin-top: 150px;
-
+	max-width: 596px;
 }
 
 .Selfie{
@@ -236,7 +241,7 @@ ul{
 .ProjectFlexbox{
 	padding-left: 18.5%;
 	padding-right: 18.5%;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .Uitleg{
@@ -270,6 +275,7 @@ ul{
   width: 100%;
   padding-bottom: 56.25%; 
   height: 0;
+  margin-top: 60px;
 }
 .iframe-container iframe{
   position: absolute;
@@ -449,13 +455,13 @@ input[type=submit]:hover {
 
 footer{
 	background-color: white;
-	color: #FF99B1;
+	color: #DD204E;
 }
 
 .FooterLink{
 	font-size: 16px;
 	font-weight: 300;
-	color: #FF99B1;
+	color: #DD204E;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -523,7 +529,7 @@ footer{
 
 
 nav{
-  background: #FF99B1;
+  background: #DD204E;
   margin-left: 18%;
   margin-right: 18%;
   padding: 0px;
@@ -868,6 +874,7 @@ nav ul li.btn.hide i:before{
 	footer{
 		padding-left: 5.5%;
 		padding-right: 5.5%;
+		margin-top: 100px;
 	}
 
 	input[type=text], select, textarea {
@@ -907,6 +914,7 @@ nav ul li.btn.hide i:before{
 	.ProjectFlexbox{
 	    padding-left: 0%; 
 	    padding-right: 0%;
+	    margin-top: 50px;
 	}
 
 	.Contact{
@@ -929,7 +937,6 @@ nav ul li.btn.hide i:before{
 
 	.WebsiteButton{
 		margin-top: 35px;
-		margin-bottom: 50px;
 	}
 
 
