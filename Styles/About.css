@@ -34,8 +34,9 @@ footer{
 
 
 h1{
-	font-size: 72px;
+	font-size: 96px;
 	font-weight: 700;
+	line-height: 87.84px;
 }
 
 h2{
@@ -148,6 +149,7 @@ p{
 
 .Intro{
 	margin-top: 150px;
+	max-width: 566px;
 }
 
 .Selfie{
@@ -258,6 +260,12 @@ ul{
 	padding-top: 100px;
 }
 
+.ProfilePicture{
+	margin-top: 40px;
+	border: 16px solid #FFF;
+	max-width: 425px;
+}
+
 .Socials{
 	text-align: center;
 }
@@ -288,7 +296,7 @@ ul{
 
 
 .ImgSocial2{
-	padding-top: 105px;
+	margin-top: 60px;
 	display: inline;
     margin-left: 0px;
     margin-right: 0px;
@@ -653,16 +661,14 @@ nav ul li.btn.hide i:before{
 	.UxInfo1{
 		margin-bottom: 37px;
 		text-align: left;
-		min-width: 555px;
-		max-width: 100%;
+		max-width: 555px;
 		height: auto; 
 	}
 
 	.UxInfo2{
 		margin-bottom: 37px;
 		text-align: left;
-		min-width: 555px;
-		max-width: 100%;
+		max-width: 555px;
 		height: auto;  		
 	}
 
@@ -685,7 +691,7 @@ nav ul li.btn.hide i:before{
 
 
 
-@media screen and (max-width: 1620px) {
+@media screen and (max-width: 1600px) {
 
 	h1{
 		text-align: center;
@@ -697,8 +703,7 @@ nav ul li.btn.hide i:before{
 
 	.Inleiding{
 		text-align: left;
-		min-width: 555px;
-		max-width: 100%
+		max-width: 555px;
 	}
 	
 	nav{
@@ -714,8 +719,8 @@ nav ul li.btn.hide i:before{
 	.flex-item:nth-of-type(1) { order: 2; }
 	.flex-item:nth-of-type(2) { order: 1; }
 
-	.flex-item4:nth-of-type(1) { order: 2; }
-	.flex-item4:nth-of-type(2) { order: 1; }
+	.flex-item4:nth-of-type(1) { order: 1; }
+	.flex-item4:nth-of-type(2) { order: 2; }
 
 	
 	.flex-container2{
@@ -765,16 +770,14 @@ nav ul li.btn.hide i:before{
 	.UxInfo1{
 		margin-bottom: 37px;
 		text-align: left;
-		min-width: 555px;
-		max-width: 100%;
+		max-width: 555px;
 		height: auto; 
 	}
 
 	.UxInfo2{
 		margin-bottom: 37px;
 		text-align: left;
-		min-width: 555px;
-		max-width: 100%;
+		max-width: 555px;
 		height: auto;  		
 	}
 
@@ -877,10 +880,10 @@ nav ul li.btn.hide i:before{
 
 	h1{
 		font-size: 55px;
-		min-width: 320px;
-		max-width: 100%;
+		max-width: 555px;
 		line-height: 110%;
 		text-align: center;
+		margin-top: 50px;
 	}
 
 	h2{
@@ -931,11 +934,12 @@ nav ul li.btn.hide i:before{
 
 
 	.ProfilePicture{
-		width: 90%;
-	    display: inline-block;
-	    height: auto;
-	    margin-left: auto;
-	    margin-right: auto;
+    	width: 80%;
+    	display: inline-block;
+    	height: auto;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 12px;
 	}
 
 	.Logo {
@@ -957,8 +961,7 @@ nav ul li.btn.hide i:before{
 
 	.Inleiding{
 		height: auto;
-		min-width: 320px;
-	    max-width: 100%;
+		max-width: 555px;
 	}
 
 
@@ -985,7 +988,7 @@ nav ul li.btn.hide i:before{
 	.flex-item3:nth-of-type(2) { order: 2; }
 
 	.Selfie{
-		margin-top: 60px;
+		margin-top: 48px;
 		text-align: center;
 	}
 
@@ -1019,15 +1022,13 @@ nav ul li.btn.hide i:before{
 		margin-bottom: 0px;
 		height: auto;
 		margin-bottom: 50px;
-		min-width: 320px;
-	    max-width: 100%;
+		max-width: 555px;
 	}
 
 	.UxInfo2{
 		margin-bottom: 0px;
 		height: auto;
-		min-width: 320px;
-	    max-width: 100%;
+		max-width: 555px;
 	}
 
 	.Title{
@@ -1108,7 +1109,7 @@ nav ul li.btn.hide i:before{
 	.ImgSocial2{
 		margin-left: 20px;
 		margin-right: 20px;
-		padding-top: 30px;
+		margin-top: 35px;
 	}
 
 	.Socials2{
