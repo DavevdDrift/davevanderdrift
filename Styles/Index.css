@@ -33,18 +33,20 @@ footer{
 }
 
 h1{
-	font-size: 72px;
+	font-size: 96px;
 	font-weight: 700;
+	line-height: 87.84px;
 }
 
 h2{
-	font-size: 24px;
-	font-weight: 600;
+	font-size: 36px;
+	font-weight: 300;
 }
 
 h3{
-	font-size: 36px;
+	font-size: 96px;
 	font-weight: 700;
+	color: #21468B;
 }
 
 h4{
@@ -101,8 +103,8 @@ p{
 	font-weight: 700;
 	text-align: center;
 	border: none; 
-	margin-top: 65px;
-	margin-bottom: 125px;
+	margin-top: 60px;
+	margin-bottom: 276px;
 
 }
 
@@ -171,6 +173,7 @@ p{
 
 .Intro{
 	margin-top: 150px;
+	max-width: 577px;
 }
 
 .Selfie{
@@ -199,7 +202,7 @@ h1{
 }
 
 h2{
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-bottom: 0px;
 }
 
@@ -247,6 +250,12 @@ h4{
 	justify-content: space-between;
 }
 
+.ProfilePicture{
+	margin-top: 48px;
+	border: 16px solid #FFF;
+	max-width: 425px;
+}
+
 ul{
 	list-style: none;
 }
@@ -263,11 +272,11 @@ ul{
 
 
 .Title{
-	margin-top: 200px;
+	margin-top: 225px;
 } 
 
 .ButtonViewMore{
-	margin-top: 200px;
+	margin-top: 265px;
 }
 
 .imgdavepf{
@@ -637,7 +646,12 @@ nav ul li.btn.hide i:before{
 		margin-right: auto;
 	}
 
-	
+	h3{
+		font-size: 75px;
+		padding-top: 20px;
+	}
+
+
 	.UxInfo1{
 		margin-bottom: 37px;
 		text-align: left;
@@ -683,6 +697,11 @@ nav ul li.btn.hide i:before{
 		text-align: center;
 	}
 
+	h3{
+		font-size: 36px;
+		padding-top: 47px;
+	}
+
 	.Inleiding{
 		text-align: left;
 		min-width: 555px;
@@ -716,10 +735,11 @@ nav ul li.btn.hide i:before{
 
 	.ButtonViewMore{
 		text-align: right;
+		margin-top: 260px;
 	}
 
 	.Title{
-		text-align: left;
+		text-align: center;
 	}
 
 	.Intro{
@@ -809,7 +829,7 @@ nav ul li.btn.hide i:before{
 
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
 
 
 	body{
@@ -821,16 +841,18 @@ nav ul li.btn.hide i:before{
 		min-width: 320px;
 		max-width: 100%;
 		line-height: 91.5%;
-		text-align: left;
+		text-align: center;
 	}
 
 	h2{
 		font-size: 22px;
 		line-height: 26px;
-		text-align: left;
+		text-align: center;
 	}
 
-
+	h3{
+		font-size: 36px;
+	}
 
 	.Explain{
 		padding-left: 5.5%;
@@ -869,7 +891,7 @@ nav ul li.btn.hide i:before{
 
 
 	.ProfilePicture{
-		width: 90%;
+		width: 80%;
 	    display: inline-block;
 	    height: auto;
 	    margin-left: auto;
@@ -900,7 +922,7 @@ nav ul li.btn.hide i:before{
 
 	.ButtonWhiteIntro{
 		margin-top: 35px;
-		margin-bottom: 50px;
+		margin-bottom: 100px;
 	}
 
 
@@ -920,18 +942,18 @@ nav ul li.btn.hide i:before{
 	.flex-item3:nth-of-type(2) { order: 2; }
 
 	.Selfie{
-		margin-top: 35px;
+		margin-top: 12px;
 		text-align: center;
 	}
 
 	.Intro{
-		margin-top: 20px;
+		margin-top: 50px;
 		max-width: 100%;
 		padding-left: 5.5%;
 	    padding-right: 5.5%;
-
-
 	}
+
+
 
 	.topnav a{
 		margin-top: 20px;
@@ -966,11 +988,11 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Title{
-		margin-top: 50px;
+		margin-top: 100px;
 	}
 
 	.ButtonViewMore{
-		margin-top: 50px;
+		margin-top: 135px;
 	}
 
 	.imgdavepf{
@@ -1047,14 +1069,34 @@ nav ul li.btn.hide i:before{
 
 	.ButtonViewMore{
 		text-align: center;
+		margin-top: 50px;
+	}
+
+	.flex-item3{
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.Center{
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 80px;
 	}
 
 }
 
 
+
+@media screen and (max-width: 647px) {
+
+	h3{
+		padding-top: 0px;
+	}
+
+
+	.Center{
+		margin-top: 0px;
+	}
+
+}
 
