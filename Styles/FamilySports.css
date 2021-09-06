@@ -120,6 +120,34 @@ p{
 	outline: none;
 }
 
+.WebsiteButton{
+	width: 320px;
+	height: 50px;
+	color: #5C7A37;
+	background: white;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	border: none; 
+	margin-top: 50px;
+	margin-bottom: 0px;
+
+}
+
+.WebsiteButton:hover{
+	background-color: #5C7A37;
+	color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-color: white; 
+	outline: none;
+}
+
+.WebsiteButton:focus{
+	outline: none;
+}
+
+
 .ButtonWhiteIntro:focus{
 	outline: none;
 }
