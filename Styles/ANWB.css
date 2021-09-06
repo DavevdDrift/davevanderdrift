@@ -99,6 +99,39 @@ p{
 	border: none; 
 }
 
+
+.WebsiteButton{
+	width: 320px;
+	height: 50px;
+	color: #8E7200;
+	background: white;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	border: none; 
+	margin-top: 50px;
+	margin-bottom: 0px;
+
+}
+
+.WebsiteButton:hover{
+	background-color: #8E7200;
+	color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-color: white; 
+	outline: none;
+}
+
+.WebsiteButton:focus{
+	outline: none;
+}
+
+
+.ButtonWhiteIntro:focus{
+	outline: none;
+}
+
 .ButtonWhiteIntro{
 	width: 320px;
 	height: 50px;
