@@ -88,6 +88,7 @@ p{
 	padding-right: 18%;
 }
 
+
 .ButtonWhite{
 	width: 320px;
 	height: 50px;
@@ -102,7 +103,7 @@ p{
 .WebsiteButton{
 	width: 320px;
 	height: 50px;
-	color: #FF99B1;
+	color: #1B4879;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -114,7 +115,7 @@ p{
 }
 
 .WebsiteButton:hover{
-	background-color: #FF99B1;
+	background-color: #1B4879;
 	color: white;
 	border-width: 3px;
 	border-style: solid;
@@ -131,7 +132,7 @@ p{
 	width: 320px;
 	height: 50px;
 	color: white;
-	background: #667EFF;
+	background: #1B4879;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -140,10 +141,10 @@ p{
 
 .ButtonBlue:hover{
 	background-color: white;
-	color: #667EFF;
+	color: #1B4879;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #667EFF; 
+	border-color: #1B4879; 
 	outline: none;
 }
 
