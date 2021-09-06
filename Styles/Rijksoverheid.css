@@ -110,8 +110,7 @@ p{
 	text-align: center;
 	border: none; 
 	margin-top: 50px;
-	margin-bottom: 125px;
-
+	margin-bottom: 0px;
 }
 
 .WebsiteButton:hover{
