@@ -863,6 +863,10 @@ nav ul li.btn.hide i:before{
 		text-align: center;
 	}
 
+	.WebsiteButton{
+		margin-top: 35px;
+		margin-bottom: 50px;
+	}
 
 
 	.Explain{
@@ -933,7 +937,7 @@ nav ul li.btn.hide i:before{
 	    max-width: 100%;
 	    padding-left: 5.5%;
     	padding-right: 5.5%;
-    	margin-bottom: 50px;
+    	margin-bottom: 0px;
 	}
 
 
