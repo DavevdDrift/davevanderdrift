@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;700&display=swap');
 
 body{
 	background-color: white;
@@ -34,13 +35,14 @@ footer{
 
 h1{
 	font-size: 96px;
+	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
 	line-height: 87.84px;
 }
 
 h2{
 	font-size: 36px;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 h3{
