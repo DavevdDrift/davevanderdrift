@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;700&display=swap');
 
+
+html, body{
+	width: 100%
+	height: 100%
+	margin: 0px;
+	padding: 0px;
+		overflow-x: hidden;
+}
+
 body{
 	background-color: white;
 	font-family: "Roboto", serif;
@@ -50,6 +59,11 @@ h3{
 	font-weight: 700;
 	color: #21468B;
 	font-family: 'Source Serif Pro', serif;
+	text-align: center;
+}
+
+.Links{
+	text-align: left;
 }
 
 h4{
@@ -279,7 +293,8 @@ ul{
 } 
 
 .ButtonViewMore{
-	margin-top: 265px;
+	margin-top: 60px;
+	text-align: center;
 }
 
 .imgdavepf{
@@ -364,6 +379,7 @@ ul{
 
 .ContactInfo{
 	margin-top: 20px;
+	font-weight: 700;
 }
 
 .ContactIcon{
@@ -649,11 +665,6 @@ nav ul li.btn.hide i:before{
 		margin-right: auto;
 	}
 
-	h3{
-		font-size: 75px;
-		padding-top: 20px;
-	}
-
 
 	.UxInfo1{
 		margin-bottom: 37px;
@@ -700,11 +711,6 @@ nav ul li.btn.hide i:before{
 		text-align: center;
 	}
 
-	h3{
-		font-size: 36px;
-		padding-top: 47px;
-	}
-
 	.Inleiding{
 		text-align: left;
 		min-width: 555px;
@@ -737,8 +743,8 @@ nav ul li.btn.hide i:before{
 
 
 	.ButtonViewMore{
-		text-align: right;
-		margin-top: 260px;
+		text-align: center;
+		margin-top: 60px;
 	}
 
 	.Title{
@@ -854,7 +860,8 @@ nav ul li.btn.hide i:before{
 	}
 
 	h3{
-		font-size: 36px;
+		font-size: 55px;
+		margin-bottom: 30px;
 	}
 
 	.Explain{
@@ -995,7 +1002,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.ButtonViewMore{
-		margin-top: 135px;
+		margin-top: 50px;
 	}
 
 	.imgdavepf{
