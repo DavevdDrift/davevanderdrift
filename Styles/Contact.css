@@ -1,20 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;700&display=swap');
 
-
-html, body{
-	width: 100%
-	height: 100%
-	margin: 0px;
-	padding: 0px;
-		overflow-x: hidden;
-}
-
 body{
-	background-color: white;
+	background-color: #21468B;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
+	color: white;
 	overflow-x: hidden;
 }
 
@@ -24,51 +16,47 @@ header{
 }
 
 .header-box{
-	background-color: #21468B
+	background-color: #21468B;
 	color: white; 
 	padding-left: 18%;
 	padding-right: 18%;
 }
 
 
-main{
+.MainLogo{
+	width: 50px;
+}
 
+.Placeholder{
+	font-weight: 600;
 }
 
 footer{
 	padding-left: 18%;
 	padding-right: 18%;
 	background-color: white;
-	margin-top: 160px;
+	margin-top: 200px;
 }
 
 h1{
 	font-size: 96px;
-	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
-	line-height: 87.84px;
+	font-family: 'Source Serif Pro', serif;
 }
 
 h2{
+	font-size: 24px;
+	font-weight: 300;
+}
+
+h3{
 	font-size: 36px;
 	font-weight: 700;
 }
 
-h3{
-	font-size: 96px;
-	font-weight: 700;
-	color: #21468B;
-	font-family: 'Source Serif Pro', serif;
-	text-align: center;
-}
-
-.Links{
-	text-align: left;
-}
-
 h4{
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 p{
@@ -120,8 +108,8 @@ p{
 	font-weight: 700;
 	text-align: center;
 	border: none; 
-	margin-top: 60px;
-	margin-bottom: 276px;
+	margin-top: 75px;
+	margin-bottom: 125px;
 
 }
 
@@ -164,33 +152,8 @@ p{
 }
 
 
-.ButtonBlueProjects{
-	width: 320px;
-	height: 50px;
-	color: white;
-	background: #21468B;
-	font-size: 16px;
-	font-weight: 700;
-	text-align: center;
-	border: none; 
-}
-
-.ButtonBlueProjects:hover{
-	background-color: white;
-	color: #21468B;
-	border-width: 3px;
-	border-style: solid;
-	border-color: #21468B; 
-	outline: none;
-}
-
-.ButtonBlueProjects:focus{
-	outline: none;
-}
-
 .Intro{
 	margin-top: 150px;
-	max-width: 577px;
 }
 
 .Selfie{
@@ -219,7 +182,7 @@ h1{
 }
 
 h2{
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 0px;
 }
 
@@ -267,12 +230,6 @@ h4{
 	justify-content: space-between;
 }
 
-.ProfilePicture{
-	margin-top: 48px;
-	border: 16px solid #FFF;
-	max-width: 425px;
-}
-
 ul{
 	list-style: none;
 }
@@ -289,12 +246,11 @@ ul{
 
 
 .Title{
-	margin-top: 225px;
+	margin-top: 200px;
 } 
 
 .ButtonViewMore{
-	margin-top: 60px;
-	text-align: center;
+	margin-top: 200px;
 }
 
 .imgdavepf{
@@ -368,7 +324,7 @@ ul{
 
 
 .Contact{
-	margin-top: 200px;
+	margin-top: 50px;
 	margin-bottom: 0px;
 }
 
@@ -394,39 +350,19 @@ ul{
 	line-height: 30px;
 }
 
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
+	background-color: #21468B; 
 	width: 100%;
 	max-width: 620px;
 	padding: 0px;
+	padding-left: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px; 
-	padding-left: 10px;
-	border: none; 
-  	border-radius: 0px; 
-  	box-sizing: border-box;
-  	background-color: #21468B; 
-  	margin-bottom: 16px; 
-  	resize: vertical; 
-	font-family: "Roboto", serif;
-	font-style: normal;
-	margin-bottom: 0px;
-	outline: none;
-	color: white;
-}
-
-
-input[type=email], select, textarea {
-	width: 100%;
-	max-width: 620px;
-	padding: 0px;
-	padding-top: 20px;
-	padding-bottom: 20px; 
-	padding-left: 10px;
 	border: none; 
   	border-radius: 0px; 
   	box-sizing: border-box; 
-  	background-color: #21468B; 
   	margin-bottom: 16px; 
   	resize: vertical; 
   	color: black;
@@ -434,15 +370,36 @@ input[type=email], select, textarea {
 	font-style: normal;
 	margin-bottom: 0px;
 	outline: none;
-	color: white;
+	background-color: white;
+}
+
+input[type=email], select, textarea {
+	background-color: #21468B; 
+	width: 100%;
+	max-width: 620px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;  
+	border: none; 
+  	border-radius: 0px; 
+  	box-sizing: border-box; 
+  	margin-bottom: 16px; 
+  	resize: vertical; 
+  	color: black;
+	font-family: "Roboto", serif;
+	font-style: normal;
+	margin-bottom: 0px;
+	outline: none;
+	background-color: white;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
 	width: 320px;
 	height: 50px;
-	color: white;
-	background-color: #21468B;
+	color: #21468B;
+	background-color: white;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -454,10 +411,10 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  	background-color: white;
+  	background-color: #21468B;
   	border-width: 3px;
-  	color: #21468B;
-  	border-color: #21468B;
+  	color: white;
+  	border-color: white;
   	margin-bottom: 0px;
 }
 
@@ -475,7 +432,7 @@ input[type=submit]:hover {
 }
 
 .TextfieldMail{
-	margin-top: 00px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	font-weight: 300;
 	font-size: 16px;
@@ -491,14 +448,40 @@ input[type=submit]:hover {
 }
 
 footer{
-	background-color: #21468B;
-	color: white;
+	background-color: white;
+	color: #21468B;
+}
+
+input{
+  border:1px solid red;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    white;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    white;
 }
 
 .FooterLink{
 	font-size: 16px;
 	font-weight: 300;
-	color: white;
+	color: #21468B;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -617,7 +600,6 @@ nav ul li.logo{
   font-weight: 700;
   cursor: default;
   user-select: none;
-  width: 40px;
 }
 nav ul li a{
   color: white;
@@ -643,16 +625,8 @@ nav ul li.btn.hide i:before{
 }
 
 .Wrong{
-	color: #21468Bs;
+	color: white;
 	font-weight: 700;
-}
-
-.MainLogo{
-	width: 50px;
-}
-
-.Placeholder{
-	font-weight: 600;
 }
 
 
@@ -661,11 +635,11 @@ nav ul li.btn.hide i:before{
 @media screen and (max-width: 1740px) {
 
 	.flex-item1{
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 5.5%;
+		
 	}
 
-
+	
 	.UxInfo1{
 		margin-bottom: 37px;
 		text-align: left;
@@ -704,7 +678,7 @@ nav ul li.btn.hide i:before{
 @media screen and (max-width: 1620px) {
 
 	h1{
-		text-align: center;
+		text-align: left;
 	}
 
 	h2{
@@ -731,11 +705,6 @@ nav ul li.btn.hide i:before{
 	.flex-item:nth-of-type(2) { order: 1; }
 
 
-	.flex-item{
-		margin-left: auto;
-		margin-right: auto;
-	}
-
 	.flex-item1{
 		margin-left: auto;
 		margin-right: auto;
@@ -743,17 +712,16 @@ nav ul li.btn.hide i:before{
 
 
 	.ButtonViewMore{
-		text-align: center;
-		margin-top: 60px;
+		text-align: right;
 	}
 
 	.Title{
-		text-align: center;
+		text-align: left;
 	}
 
 	.Intro{
 		margin-top: 50px;
-		text-align: center;
+		text-align: left;
 	}
 
 	.Selfie{
@@ -777,7 +745,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.flex-container{
-		text-align: center;
+		text-align: left;
 	}
 
 	.InfoLeft{
@@ -814,6 +782,7 @@ nav ul li.btn.hide i:before{
   	padding-bottom: 800px;
   }  
 
+
   nav ul li.items.show{
     display: block;
   }
@@ -834,11 +803,12 @@ nav ul li.btn.hide i:before{
   	font-size: 40px;
   }
 
+
 }
 
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 900px) {
 
 
 	body{
@@ -849,20 +819,17 @@ nav ul li.btn.hide i:before{
 		font-size: 55px;
 		min-width: 320px;
 		max-width: 100%;
-		line-height: 91.5%;
-		text-align: center;
+		line-height: 110%;
+		text-align: left;
 	}
 
 	h2{
 		font-size: 22px;
 		line-height: 26px;
-		text-align: center;
+		text-align: left;
 	}
 
-	h3{
-		font-size: 55px;
-		margin-bottom: 30px;
-	}
+
 
 	.Explain{
 		padding-left: 5.5%;
@@ -901,14 +868,17 @@ nav ul li.btn.hide i:before{
 
 
 	.ProfilePicture{
-		width: 80%;
+		width: 90%;
 	    display: inline-block;
 	    height: auto;
 	    margin-left: auto;
 	    margin-right: auto;
 	}
 
-
+	.Logo {
+	    padding-left: 5.5%; 
+	    padding-right: 5.5%;
+	}
 
 	.ProjectFlexbox{
 	    padding-left: 5.5%; 
@@ -916,7 +886,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Contact{
-	    margin-top: 100px;
+	    margin-top: 35px;
 	    padding-left: 5.5%; 
 	    padding-right: 5.5%;
 
@@ -932,12 +902,12 @@ nav ul li.btn.hide i:before{
 
 	.ButtonWhiteIntro{
 		margin-top: 35px;
-		margin-bottom: 100px;
+		margin-bottom: 50px;
 	}
 
 
 	.flex-item{
-		margin-left: 5.5%
+		margin-left: 5.5%;
 		margin-right: 5.5%;
 	}
 
@@ -952,18 +922,14 @@ nav ul li.btn.hide i:before{
 	.flex-item3:nth-of-type(2) { order: 2; }
 
 	.Selfie{
-		margin-top: 12px;
+		margin-top: 60px;
 		text-align: center;
 	}
 
 	.Intro{
-		margin-top: 50px;
+		margin-top: 20px;
 		max-width: 100%;
-		padding-left: 5.5%;
-	    padding-right: 5.5%;
 	}
-
-
 
 	.topnav a{
 		margin-top: 20px;
@@ -998,7 +964,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Title{
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	.ButtonViewMore{
@@ -1012,10 +978,6 @@ nav ul li.btn.hide i:before{
 	}
 
 	.ButtonBlue{
-		margin-bottom: 40px;
-	}
-
-	.ButtonBlueProjects{
 		margin-bottom: 40px;
 	}
 
@@ -1053,17 +1015,9 @@ nav ul li.btn.hide i:before{
 		padding-right: 2.5%;
 	}
 
-
-	.flex-item{
-		margin-left: auto;
-		margin-right: auto;
-	}
-
 	.header-box{
 		padding-left: 0px;
 		padding-right: 0px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 
 
@@ -1079,34 +1033,14 @@ nav ul li.btn.hide i:before{
 
 	.ButtonViewMore{
 		text-align: center;
-		margin-top: 50px;
-	}
-
-	.flex-item3{
-		margin-left: auto;
-		margin-right: auto;
 	}
 
 	.Center{
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 80px;
 	}
 
 }
 
 
-
-@media screen and (max-width: 647px) {
-
-	h3{
-		padding-top: 0px;
-	}
-
-
-	.Center{
-		margin-top: 0px;
-	}
-
-}
 
