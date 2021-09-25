@@ -270,7 +270,7 @@ h4{
 .ProfilePicture{
 	margin-top: 48px;
 	border: 16px solid #FFF;
-	max-width: 425px;
+	max-width: 430px;
 }
 
 ul{
@@ -665,7 +665,6 @@ nav ul li.btn.hide i:before{
 		margin-right: auto;
 	}
 
-
 	.UxInfo1{
 		margin-bottom: 37px;
 		text-align: left;
@@ -716,6 +715,9 @@ nav ul li.btn.hide i:before{
 		min-width: 555px;
 		max-width: 100%
 	}
+
+
+
 	
 	nav{
 		margin-left: auto;
@@ -792,6 +794,9 @@ nav ul li.btn.hide i:before{
 
 }
 
+
+
+
 /* navbalk to menu */
 @media all and (max-width: 950px){
   nav{
@@ -799,6 +804,7 @@ nav ul li.btn.hide i:before{
     margin-left: 5.5%;
     margin-right: 5.5%;
   }
+
 
   nav ul li.items{
     width: 100%;
@@ -833,6 +839,9 @@ nav ul li.btn.hide i:before{
   .fas{
   	font-size: 40px;
   }
+
+
+
 
 }
 
@@ -874,6 +883,10 @@ nav ul li.btn.hide i:before{
 		padding-right: 5.5%;
 	}
 
+	.ProfilePicture{
+		max-width: 300px;
+}
+
 	footer{
 		padding-left: 5.5%;
 		padding-right: 5.5%;
@@ -901,7 +914,8 @@ nav ul li.btn.hide i:before{
 
 
 	.ProfilePicture{
-		width: 80%;
+		max-width: 175px;
+		border-width: 8px;
 	    display: inline-block;
 	    height: auto;
 	    margin-left: auto;
@@ -957,7 +971,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Intro{
-		margin-top: 50px;
+		margin-top: 30px;
 		max-width: 100%;
 		padding-left: 5.5%;
 	    padding-right: 5.5%;
