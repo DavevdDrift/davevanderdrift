@@ -42,19 +42,22 @@ h1{
 }
 
 h2{
-	font-size: 24px;
-	font-weight: 300;
+	text-align: center;
+	font-size: 64px;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 700;
 }
 
 h3{
-	font-size: 36px;
+	text-align: center;
+	font-size: 64px;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
 }
 
 h4{
-	font-size: 18px;
-	font-weight: 600;
+	font-size: 36px;
+	font-weight: 700;
 }
 
 p{
@@ -79,12 +82,13 @@ p{
 }
 
 .Explain{
-	background-color: #21468B;
-	color: white;
+	background-color: white;
+	color: #21468B;
 	margin: 0px;
-	padding-left: 18%;
-	padding-right: 18%;
+	padding-left: 12%;
+	padding-right: 12%;
 }
+
 
 .ButtonWhite{
 	width: 320px;
@@ -97,7 +101,7 @@ p{
 	border: none; 
 }
 
-.ButtonWhiteIntro{
+.WebsiteButton{
 	width: 320px;
 	height: 50px;
 	color: #21468B;
@@ -107,11 +111,11 @@ p{
 	text-align: center;
 	border: none; 
 	margin-top: 105px;
-	margin-bottom: 125px;
+	margin-bottom: 150px;
 
 }
 
-.ButtonWhiteIntro:hover{
+.WebsiteButton:hover{
 	background-color: #21468B;
 	color: white;
 	border-width: 3px;
@@ -120,10 +124,9 @@ p{
 	outline: none;
 }
 
-.ButtonWhiteIntro:focus{
+.WebsiteButton:focus{
 	outline: none;
 }
-
 
 .ButtonBlue{
 	width: 320px;
@@ -149,6 +152,10 @@ p{
 	outline: none;
 }
 
+.experience{
+	padding-top: 150px;
+	margin-bottom: 30px;
+}
 
 .Intro{
 	margin-top: 150px;
@@ -156,24 +163,24 @@ p{
 }
 
 .Selfie{
-	margin-top: 150px;
+	margin-top: 250px;
 }
 
 
 .InfoLeft{
-
-	padding-top: 75px;
+	margin-top: 30px;
 	padding-bottom: 0px; 
-	max-width: 557px;
+	max-width: 316px;
+	text-align: left;
 }
 
 .InfoRight{
-
-
-	padding-top: 75px;
+	padding-top: 60px;
 	padding-bottom: 0px; 
-	max-width: 557px;
+	max-width: 316px;
+	text-align: right
 }
+
 
 h1{
 	margin-top: 0px;
@@ -181,7 +188,7 @@ h1{
 }
 
 h2{
-	margin-top: 10px;
+	margin-top: 00px;
 	margin-bottom: 0px;
 }
 
@@ -191,24 +198,9 @@ h3{
 }
 
 h4{
-	margin-top: 10px;
-	margin-bottom: 0px;
-}
-
-.UxInfo1{
-	margin-top: 30px;
-	margin-bottom: 100px;
-	line-height: 30px;
-	max-width: 557px;
-	height: auto;
-}
-
-.UxInfo2{
-	margin-top: 30px;
-	margin-bottom: 100px;
-	line-height: 30px;
-	max-width: 557px;
-	height: auto;
+	margin-top: 0px;
+	margin-bottom: 21px;
+	float: left;
 }
 
 
@@ -229,10 +221,70 @@ h4{
 	justify-content: space-between;
 }
 
-.flex-container2{
-	 flex-direction: column;
-	 flex-flow: column wrap;
+
+/* Ervaring sectie */
+
+.InfoLinks{
+	width: 228px;
+	padding-right: 25px;
 }
+
+.InfoRechts{
+	width: 316px;
+	padding-left: 25px;
+}
+
+
+.flex-container3{
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 120px;
+	display: flex;
+	align-content: flex-start;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+
+.UxInfo1{
+	margin-top: 30px;
+	margin-bottom: 100px;
+	line-height: 30px;
+	max-width: 557px;
+	height: auto;
+}
+
+.UxInfo2{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	line-height: 30px;
+	width: 316px;
+	height: auto;
+	color: black;
+	font-weight: 400;
+	float: left;
+}
+
+.TextRight{
+	float: right;
+	font-weight: 700;
+}
+
+.Icon{
+	float: right;
+}
+
+.Hobbies{
+	max-width: 666px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+/* Ervaring sectie */
 
 
 ul{
@@ -243,6 +295,7 @@ ul{
 .ProjectFlexbox{
 	padding-left: 18.5%;
 	padding-right: 18.5%;
+	color: white;
 }
 
 .Contact{
@@ -260,7 +313,7 @@ ul{
 }
 
 .imgdavepf{
-	padding-top: 100px;
+	padding-top: 0px;
 }
 
 .ProfilePicture{
@@ -536,9 +589,33 @@ input[type=submit]:hover {
 
 .flex-item1{
   	position: relative;
-  	width: auto;
+  	width: 228px;
   	height: auto;
+  	margin: 0px;
 }
+
+.flex-item3{
+  	position: relative;
+  	height: auto;
+  	margin: 0px;
+  	align-items: center;
+}
+
+
+.flex-itemRechts{
+  	position: relative;
+  	width: 316px;
+  	height: auto;
+  	margin: 0px;
+}
+
+.flex-item2{
+  	position: relative;
+  	width: 30px;
+  	height: auto;
+  	 margin: 0px;
+}
+
 
 .img__description {
   	position: absolute;
@@ -648,7 +725,9 @@ nav ul li.btn.hide i:before{
   content: '\f00d';
 }
 
-
+	.ResponsiveTitle{
+		margin-top: 30px;
+	}
 
 
 
@@ -656,6 +735,11 @@ nav ul li.btn.hide i:before{
 @media screen and (max-width: 1740px) {
 
 	.flex-item1{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.flex-item3{
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -669,7 +753,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.UxInfo2{
-		margin-bottom: 37px;
+		margin-bottom: 30px;
 		text-align: left;
 		max-width: 555px;
 		height: auto;  		
@@ -745,6 +829,11 @@ nav ul li.btn.hide i:before{
 		margin-right: auto;
 	}
 
+	.flex-item3{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.flex-item4{
 		flex-direction: column;
 		flex: wrap;
@@ -771,14 +860,14 @@ nav ul li.btn.hide i:before{
 	}
 
 	.UxInfo1{
-		margin-bottom: 37px;
+		margin-bottom: 31px;
 		text-align: left;
 		max-width: 555px;
 		height: auto; 
 	}
 
 	.UxInfo2{
-		margin-bottom: 37px;
+		margin-bottom: 30px;
 		text-align: left;
 		max-width: 555px;
 		height: auto;  		
@@ -823,8 +912,22 @@ nav ul li.btn.hide i:before{
 	padding-top: 70px;
 }
 
-
 }
+
+
+@media screen and (max-width: 1414px) {
+	.Responsive{
+		margin-top: 0px;
+	}
+
+	.flex-container3{
+	justify-content: center;
+}
+
+
+	}
+
+
 
 /* navbalk to menu */
 @media all and (max-width: 950px){
@@ -870,10 +973,21 @@ nav ul li.btn.hide i:before{
   }
 
 
+
+
 }
 
+@media screen and (max-width: 920px) {
+.ProfilePicture {
+    max-width: 175px;
+    border-width: 8px;
+    display: inline-block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 900px) {
 
 
@@ -890,11 +1004,15 @@ nav ul li.btn.hide i:before{
 	}
 
 	h2{
-		font-size: 22px;
-		line-height: 26px;
-		text-align: left;
+		font-size: 55px;
+		line-height: 65px;
+		text-align: center;
+		margin-bottom: 30px;
 	}
 
+	h3{
+		margin-bottom: 60px;
+	}
 
 
 	.Explain{
@@ -915,7 +1033,6 @@ nav ul li.btn.hide i:before{
 	input[type=text], select, textarea {
 		width: 100%;
 	}
-
 
 	.MenuBalk{
 		padding-right: 5.5%;
@@ -1014,11 +1131,11 @@ nav ul li.btn.hide i:before{
 	}
 
 	.InfoRight{
-		padding-top: 50px;
+		padding-top: 0px;
 	}
 
 	.InfoLeft{
-		padding-top: 50px;
+		padding-top: 0px;
 	}
 
 	.UxInfo1{
@@ -1029,7 +1146,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.UxInfo2{
-		margin-bottom: 0px;
+		margin-bottom: 30px;
 		height: auto;
 		max-width: 555px;
 	}
@@ -1132,6 +1249,23 @@ nav ul li.btn.hide i:before{
 
 
 
+}
+
+@media screen and (max-width: 667px) {
+	.ResponsiveTitle{
+		margin-top: 0px;
+	}
+
+	.InfoLinks{
+		width: 228px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.ResText{
+		text-align: center;
+		width: 224px;
+	}
 }
 
 @media screen and (max-width: 690px) {
