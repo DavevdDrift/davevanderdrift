@@ -402,17 +402,18 @@ input[type=text], select, textarea {
 	padding-top: 20px;
 	padding-bottom: 20px; 
 	padding-left: 10px;
-	border: none; 
+	border-color: #21468B;
+	border-width: 2px; 
   	border-radius: 0px; 
   	box-sizing: border-box;
-  	background-color: #21468B; 
+  	background-color: white; 
   	margin-bottom: 16px; 
   	resize: vertical; 
 	font-family: "Roboto", serif;
 	font-style: normal;
 	margin-bottom: 0px;
 	outline: none;
-	color: white;
+	color: black;
 }
 
 
@@ -423,18 +424,17 @@ input[type=email], select, textarea {
 	padding-top: 20px;
 	padding-bottom: 20px; 
 	padding-left: 10px;
-	border: none; 
   	border-radius: 0px; 
   	box-sizing: border-box; 
-  	background-color: #21468B; 
+  	background-color: white; 
   	margin-bottom: 16px; 
   	resize: vertical; 
   	color: black;
 	font-family: "Roboto", serif;
 	font-style: normal;
 	margin-bottom: 0px;
-	outline: none;
-	color: white;
+	border-color: #21468B;
+	border-top-color: #21468B;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -450,6 +450,7 @@ input[type=submit] {
   	cursor: pointer;
   	margin-right: 100%;
   	margin-bottom: 0px;
+  	border-top-color: #21468B;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -472,6 +473,7 @@ input[type=submit]:hover {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 19px;
+	border-color: #21468B;
 }
 
 .TextfieldMail{
@@ -480,6 +482,7 @@ input[type=submit]:hover {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 19px;
+	border-color: #21468B;
 }
 
 .TextfieldLong{
@@ -488,6 +491,7 @@ input[type=submit]:hover {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 19px;
+	border-color: #21468B;
 }
 
 footer{
@@ -643,7 +647,7 @@ nav ul li.btn.hide i:before{
 }
 
 .Wrong{
-	color: #21468Bs;
+	color: #21468B;
 	font-weight: 700;
 }
 
