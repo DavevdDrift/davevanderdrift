@@ -295,6 +295,10 @@ ul{
 .ButtonViewMore{
 	margin-top: 60px;
 	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .imgdavepf{
@@ -1125,6 +1129,13 @@ nav ul li.btn.hide i:before{
 	.Center{
 		margin-top: 0px;
 	}
+
+	.ButtonViewMore{
+	    padding-left: 0px;
+	    padding-right: 0px;
+	}
+
+
 
 }
 
