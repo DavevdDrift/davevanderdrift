@@ -633,7 +633,7 @@ nav ul li.items:after{
   content: '';
   left: 0;
   bottom: 5px;
-  background: white;
+  background: #245A50;
   height: 2px;
   width: 100%;
   opacity: 0;
@@ -662,7 +662,7 @@ nav ul li a{
 }
 
 nav ul li:hover a{
-  color: white;
+  color: #245A50;
 }
 
 nav ul li i{
