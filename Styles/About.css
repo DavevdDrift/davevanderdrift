@@ -226,12 +226,16 @@ h4{
 
 .InfoLinks{
 	width: 228px;
-	padding-right: 25px;
+	padding-right: 50px;
 }
 
 .InfoRechts{
 	width: 316px;
-	padding-left: 0px;
+	padding-left: 50px;
+}
+
+.Bold{
+	font-weight: 700;
 }
 
 
@@ -1250,6 +1254,19 @@ nav ul li.btn.hide i:before{
 
 
 }
+
+@media screen and (max-width: 723px) {
+
+	.InfoLinks{
+		padding-left: 0px;
+	}
+
+	.InfoRechts{
+		padding-left: 0px;
+	}
+
+}
+
 
 @media screen and (max-width: 667px) {
 	.ResponsiveTitle{
