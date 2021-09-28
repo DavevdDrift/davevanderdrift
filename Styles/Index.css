@@ -1015,7 +1015,7 @@ nav ul li.btn.hide i:before{
 
 
 	.ButtonWhiteIntro{
-		margin-top: 262px;
+		margin-top: 60px;
 		margin-bottom: 100px;
 	}
 
@@ -1181,6 +1181,12 @@ nav ul li.btn.hide i:before{
 		margin-top: 50px;
 	}
 
+	.ButtonWhiteIntro{
+		margin-top: 60px;
+		margin-bottom: 100px;
+	}
+
+
 	.flex-item3{
 		margin-left: auto;
 		margin-right: auto;
@@ -1208,7 +1214,6 @@ nav ul li.btn.hide i:before{
 		min-height: 700px;
 	}
 
-
 }
 
 
@@ -1217,6 +1222,11 @@ nav ul li.btn.hide i:before{
 
 	h3{
 		padding-top: 0px;
+	}
+
+	.ButtonWhiteIntro{
+		margin-top: 60px;
+		margin-bottom: 100px;
 	}
 
 
