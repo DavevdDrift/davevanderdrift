@@ -70,6 +70,21 @@ h4{
 	font-weight: 600;
 }
 
+h6{
+	font-size: 340px;
+    position: absolute;
+    font-family: Source Serif Pro;
+    font-weight: 700;
+    line-height: 91.5%;
+    z-index: -1;
+    opacity: 3%;
+    color: white;
+    margin-top: 0px;
+    max-width: 1384px;
+    margin-left: 5%;
+}
+
+
 p{
 	font-size: 16px;
 	font-weight: 300;
@@ -712,8 +727,6 @@ nav ul li.btn.hide i:before{
 
 
 
-
-
 @media screen and (max-width: 1620px) {
 
 	h1{
@@ -722,6 +735,20 @@ nav ul li.btn.hide i:before{
 
 	h2{
 		text-align: left;
+	}
+
+	h6{
+	    font-size: 290PX;
+	    position: absolute;
+	    font-family: Source Serif Pro;
+	    font-weight: 700;
+	    line-height: 91.5%;
+	    z-index: -1;
+	    opacity: 3%;
+	    color: white;
+	    margin-top: 0px;
+	    max-width: 1130PX;
+	    margin-left: 5%;
 	}
 
 	.Title{
@@ -826,6 +853,25 @@ nav ul li.btn.hide i:before{
 }
 
 
+@media screen and (max-width: 1300px) {
+	h6{
+	    font-size: 290PX;
+	    position: absolute;
+	    font-family: Source Serif Pro;
+	    font-weight: 700;
+	    line-height: 91.5%;
+	    z-index: -1;
+	    opacity: 3%;
+	    color: white;
+	    margin-top: 0px;
+	    max-width: 1000PX;
+	    margin-left: 5%;
+	}
+}
+
+
+
+
 @media screen and (max-width: 1050px) {
 	.header-box {
 	    padding-left: 15%;
@@ -835,6 +881,21 @@ nav ul li.btn.hide i:before{
 	h1{
 		font-size: 119px;
 	}
+
+	h6{
+		font-size: 240PX;
+	    position: absolute;
+	    font-family: Source Serif Pro;
+	    font-weight: 700;
+	    line-height: 91.5%;
+	    z-index: -1;
+	    opacity: 3%;
+	    color: white;
+	    margin-top: 0px;
+	    max-width: 965PX;
+	    margin-left: 5%;
+	}
+
 }
 
 
@@ -847,6 +908,20 @@ nav ul li.btn.hide i:before{
     margin-left: auto;
     margin-right: auto;
   }
+
+  h6{
+		font-size: 195PX;
+	    position: absolute;
+	    font-family: Source Serif Pro;
+	    font-weight: 700;
+	    line-height: 91.5%;
+	    z-index: -1;
+	    opacity: 3%;
+	    color: white;
+	    margin-top: 0px;
+	    max-width: 675PX;
+	    margin-left: 5%;
+	}
 
   body.scroll{
   	height: 100vh;
@@ -1176,6 +1251,22 @@ nav ul li.btn.hide i:before{
 		font-size: 22px;
 	}
 
+	  h6{
+			font-size: 130PX;
+		    position: absolute;
+		    font-family: Source Serif Pro;
+		    font-weight: 700;
+		    line-height: 91.5%;
+		    z-index: -1;
+		    opacity: 3%;
+		    color: white;
+		    margin-top: 0px;
+		    max-width: 675PX;
+		    margin-left: 5%;
+		}
+
+
+
 	.ButtonViewMore{
 		text-align: center;
 		margin-top: 50px;
@@ -1261,6 +1352,21 @@ nav ul li.btn.hide i:before{
 	}
 
 
+@media screen and (max-width: 475px) {
+	  h6{
+			font-size: 110PX;
+		    position: absolute;
+		    font-family: Source Serif Pro;
+		    font-weight: 700;
+		    line-height: 91.5%;
+		    z-index: -1;
+		    opacity: 3%;
+		    color: white;
+		    margin-top: 0px;
+		    max-width: 675PX;
+		    margin-left: 5%;
+		}
+	}
 
 
 }
