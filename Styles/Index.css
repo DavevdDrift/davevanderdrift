@@ -1229,6 +1229,15 @@ nav ul li.btn.hide i:before{
 		margin-bottom: 100px;
 	}
 
+	  .navmenu.show{
+	    padding: 0px;
+	    padding-left: 0%;
+	    padding-right: 0%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    background-color: #21468B;
+		height: 100vh;
+	  }
 
 	.Intro{
 		margin-top: 85px;
