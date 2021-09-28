@@ -7,11 +7,11 @@ html, body{
 	height: 100%
 	margin: 0px;
 	padding: 0px;
-		overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 body{
-	background-color: white;
+	background-color: #21468B;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
@@ -19,21 +19,19 @@ body{
 }
 
 header{
-	background-color: #21468B;
 	color: white;
+	height: 100vh;
+	min-height: 1080px;
+	position: relative;
 }
 
 .header-box{
-	background-color: #21468B
 	color: white; 
 	padding-left: 18%;
-	padding-right: 18%;
+	padding-right: 22%;
+	position: absolute;
 }
 
-
-main{
-
-}
 
 footer{
 	padding-left: 18%;
@@ -43,10 +41,10 @@ footer{
 }
 
 h1{
-	font-size: 96px;
+	font-size: 144px;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
-	line-height: 87.84px;
+	line-height: 91.5%;
 }
 
 h2{
@@ -64,6 +62,7 @@ h3{
 
 .Links{
 	text-align: left;
+	color: white;
 }
 
 h4{
@@ -121,8 +120,7 @@ p{
 	text-align: center;
 	border: none; 
 	margin-top: 60px;
-	margin-bottom: 276px;
-
+	margin-bottom: 200px;
 }
 
 .ButtonWhiteIntro:hover{
@@ -172,7 +170,8 @@ p{
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
-	border: none; 
+	border: none;
+	margin-bottom: 200px; 
 }
 
 .ButtonBlueProjects:hover{
@@ -189,8 +188,8 @@ p{
 }
 
 .Intro{
-	margin-top: 150px;
-	max-width: 577px;
+	margin-top: 225px;
+	max-width: 892px;
 }
 
 .Selfie{
@@ -280,6 +279,7 @@ ul{
 .ProjectFlexbox{
 	padding-left: 18.5%;
 	padding-right: 18.5%;
+	background-color: white;
 }
 
 .Contact{
@@ -289,7 +289,7 @@ ul{
 
 
 .Title{
-	margin-top: 225px;
+	padding-top: 225px;
 } 
 
 .ButtonViewMore{
@@ -384,6 +384,7 @@ ul{
 .ContactInfo{
 	margin-top: 20px;
 	font-weight: 700;
+	color: white;
 }
 
 .ContactIcon{
@@ -396,6 +397,7 @@ ul{
 	max-width: 619px;
 	height: 50px;
 	line-height: 30px;
+	color: white;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -406,9 +408,7 @@ input[type=text], select, textarea {
 	padding-top: 20px;
 	padding-bottom: 20px; 
 	padding-left: 10px;
-	border-color: #21468B;
-	border-width: 2px; 
-  	border-radius: 0px; 
+	border: none;
   	box-sizing: border-box;
   	background-color: white; 
   	margin-bottom: 16px; 
@@ -428,7 +428,6 @@ input[type=email], select, textarea {
 	padding-top: 20px;
 	padding-bottom: 20px; 
 	padding-left: 10px;
-  	border-radius: 0px; 
   	box-sizing: border-box; 
   	background-color: white; 
   	margin-bottom: 16px; 
@@ -437,16 +436,15 @@ input[type=email], select, textarea {
 	font-family: "Roboto", serif;
 	font-style: normal;
 	margin-bottom: 0px;
-	border-color: #21468B;
-	border-top-color: #21468B;
+	border: none;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
 	width: 320px;
 	height: 50px;
-	color: white;
-	background-color: #21468B;
+	color: #21468B;
+	background-color: white;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -454,15 +452,13 @@ input[type=submit] {
   	cursor: pointer;
   	margin-right: 100%;
   	margin-bottom: 0px;
-  	border-top-color: #21468B;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  	background-color: white;
-  	border-width: 3px;
-  	color: #21468B;
-  	border-color: #21468B;
+  	background-color: #21468B;
+  	border-color: white;
+  	color: white;
   	margin-bottom: 0px;
 }
 
@@ -499,14 +495,14 @@ input[type=submit]:hover {
 }
 
 footer{
-	background-color: #21468B;
-	color: white;
+	background-color: white;
+	color: #21468B;
 }
 
 .FooterLink{
 	font-size: 16px;
 	font-weight: 300;
-	color: white;
+	color: #21468B;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -574,7 +570,6 @@ footer{
 
 
 nav{
-  background: #21468B;
   margin-left: 18%;
   margin-right: 18%;
   padding: 0px;
@@ -651,7 +646,7 @@ nav ul li.btn.hide i:before{
 }
 
 .Wrong{
-	color: #21468B;
+	color: white;
 	font-weight: 700;
 }
 
@@ -661,9 +656,20 @@ nav ul li.btn.hide i:before{
 
 .Placeholder{
 	font-weight: 600;
+	color: white;
 }
 
-
+.waterbg{
+	position: absolute;
+	width: 36vw;
+	z-index: -1;
+	background: #21468B url('../Images/Index/ProfielfotoNieuw.png');
+	background-size: cover;
+	mix-blend-mode: luminosity;
+	right: 0;
+	height: 100vh;
+	min-height: 1080px;
+}
 
 
 @media screen and (max-width: 1740px) {
@@ -711,11 +717,16 @@ nav ul li.btn.hide i:before{
 @media screen and (max-width: 1620px) {
 
 	h1{
-		text-align: center;
+		text-align: left;
 	}
 
 	h2{
-		text-align: center;
+		text-align: left;
+	}
+
+	.header-box {
+	    padding-left: 15%;
+	    padding-right: 15%;
 	}
 
 	.Inleiding{
@@ -723,9 +734,6 @@ nav ul li.btn.hide i:before{
 		min-width: 555px;
 		max-width: 100%
 	}
-
-
-
 	
 	nav{
 		margin-left: auto;
@@ -733,8 +741,8 @@ nav ul li.btn.hide i:before{
 	}
 
 	nav ul{
-		padding-left: 18.5%;
-    	padding-right: 18.5%;
+	    padding-left: 15%;
+	    padding-right: 15%;
 	}
 
 	.flex-item:nth-of-type(1) { order: 2; }
@@ -762,8 +770,8 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Intro{
-		margin-top: 50px;
-		text-align: center;
+		margin-top: 150px;
+		text-align: left;
 	}
 
 	.Selfie{
@@ -799,18 +807,55 @@ nav ul li.btn.hide i:before{
 		padding-bottom: 75px;
 	}
 
+	.waterbg{
+		position: absolute;
+		width: 60%;
+		z-index: -1;
+		background: #21468B url('../Images/Index/ProfielfotoNieuw.png');
+		background-size: cover;
+		mix-blend-mode: luminosity;
+		right: 0;
+		height: 100vh;
+	}
 
 }
 
 
+@media screen and (max-width: 1050px) {
+	.header-box {
+	    padding-left: 15%;
+	    padding-right: 15%;
+	}
+
+	h1{
+		font-size: 119px;
+	}
+}
 
 
 /* navbalk to menu */
 @media all and (max-width: 950px){
   nav{
     padding: 0px;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body.scroll{
+  	height: 100vh;
+  	overflow: hidden;
+  }
+
+  .navmenu.show{
+    padding: 0px;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #21468B;
+	height: 100vh;
   }
 
 
@@ -825,11 +870,11 @@ nav ul li.btn.hide i:before{
     width: 100%;
     display: none;
     padding-top: 50px;
-  	padding-bottom: 800px;
   }  
 
   nav ul li.items.show{
     display: block;
+    background-color: #21468B;
   }
 
   nav ul li.btn{
@@ -848,8 +893,21 @@ nav ul li.btn.hide i:before{
   	font-size: 40px;
   }
 
+	.waterbg{
+		position: absolute;
+		width: 75%;
+		z-index: -1;
+		background: #21468B url('../Images/Index/ProfielfotoNieuw.png');
+		background-size: cover;
+		mix-blend-mode: luminosity;
+		right: 0;
+		height: 110vh;
+		min-height: 1300px;
+	}
 
-
+ 	header{
+		min-height: 950px;
+	}
 
 }
 
@@ -863,17 +921,16 @@ nav ul li.btn.hide i:before{
 	}
 
 	h1{
-		font-size: 55px;
-		min-width: 320px;
+		font-size: 100px;
 		max-width: 100%;
 		line-height: 91.5%;
-		text-align: center;
+		text-align: left;
 	}
 
 	h2{
 		font-size: 22px;
 		line-height: 26px;
-		text-align: center;
+		text-align: left;
 	}
 
 	h3{
@@ -953,7 +1010,7 @@ nav ul li.btn.hide i:before{
 
 
 	.ButtonWhiteIntro{
-		margin-top: 35px;
+		margin-top: 262px;
 		margin-bottom: 100px;
 	}
 
@@ -979,10 +1036,10 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Intro{
-		margin-top: 30px;
+		margin-top: 85px;
 		max-width: 100%;
-		padding-left: 5.5%;
-	    padding-right: 5.5%;
+		padding-left: 10%;
+	    padding-right: 10%;
 	}
 
 
@@ -1058,6 +1115,7 @@ nav ul li.btn.hide i:before{
 	nav{
 		margin-left: auto;
 		margin-right: auto;
+
 	}
 
 	nav ul{
@@ -1067,8 +1125,9 @@ nav ul li.btn.hide i:before{
 	}
 
 	nav ul li{
-		padding-top: 20px;	
+		padding-top: 50px;	
 	}
+
 
 	.btn{
 		float: right;
@@ -1086,6 +1145,7 @@ nav ul li.btn.hide i:before{
 		padding-right: 0px;
 		margin-left: auto;
 		margin-right: auto;
+		width: 100%
 	}
 
 
@@ -1094,10 +1154,22 @@ nav ul li.btn.hide i:before{
 		padding-right: 0px;
 	}
 
+ 	header{
+		min-height: 900px;
+	}
+
 
 }
 
 @media screen and (max-width: 690px) {
+
+	h1{
+		font-size: 57px;
+	}
+
+	h2{
+		font-size: 22px;
+	}
 
 	.ButtonViewMore{
 		text-align: center;
@@ -1115,6 +1187,23 @@ nav ul li.btn.hide i:before{
 		margin-top: 80px;
 	}
 
+	.waterbg{
+		position: absolute;
+		width: 100%;
+		z-index: -1;
+		background: #21468B url('../Images/Index/ProfielfotoNieuw.png');
+		background-size: cover;
+		mix-blend-mode: luminosity;
+		right: 0;
+		height: 110vh;
+		padding-right: 200px;
+	}
+
+	header{
+		min-height: 700px;
+	}
+
+
 }
 
 
@@ -1126,6 +1215,18 @@ nav ul li.btn.hide i:before{
 	}
 
 
+	.Intro{
+		margin-top: 85px;
+		max-width: 100%;
+		padding-left: 5%;
+	    padding-right: 5%;
+	}
+
+	nav{
+		padding-left: 0%;
+	    padding-right: 0%;
+	}
+
 	.Center{
 		margin-top: 0px;
 	}
@@ -1134,6 +1235,7 @@ nav ul li.btn.hide i:before{
 	    padding-left: 0px;
 	    padding-right: 0px;
 	}
+
 
 
 
