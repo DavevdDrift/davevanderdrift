@@ -1,24 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 
 body{
-	background-color: #A95B00;
+	background-color: #D58628;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
 }
 
 header{
-	background-color: #A95B00;
+	background-color: #D58628;
 	color: white;
 }
 
 .header-box{
-	background-color: #A95B00;
+	background-color: #D58628;
 	color: white; 
 	padding-left: 18%;
 	padding-right: 18%;
 }
 
+.Image-box{
+	background-color: #D58628;
+	color: white; 
+	padding-left: 18%;
+	padding-right: 18%;
+	max-width: 1150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .MainLogo{
 	width: 50px;
@@ -32,21 +45,39 @@ footer{
 }
 
 h1{
-	font-size: 96px;
-	font-weight: 700;
-	line-height: 110%;
-	max-width: 596px;
+	font-family: 'Rochester';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 128px;
+	line-height: 165px;
+	/* identical to box height */
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
 }
 
 h2{
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 30px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #FFFFFF;
+	max-width: 1152px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h3{
-	font-size: 36px;
-	font-weight: 700;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	/* identical to box height, or 167% */
+	text-align: center;
+	color: #FFFFFF;
 }
 
 h4{
@@ -86,7 +117,7 @@ p{
 .WebsiteButton{
 	width: 320px;
 	height: 50px;
-	color: #A95B00;
+	color: #D58628;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -94,11 +125,18 @@ p{
 	border: none; 
 	margin-top: 50px;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
+button{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .WebsiteButton:hover{
-	background-color: #A95B00;
+	background-color: #D58628;
 	color: white;
 	border-width: 3px;
 	border-style: solid;
@@ -182,7 +220,7 @@ p{
 }
 
 .Selfie{
-	margin-top: 150px;
+	margin-top: 0px;
 }
 
 
@@ -207,12 +245,12 @@ h1{
 }
 
 h2{
-	margin-top: 10px;
+	margin-top: 32px;
 	margin-bottom: 0px;
 }
 
 h3{
-	margin-top: 0px;
+	margin-top: 16px;
 	margin-bottom: 0px;
 }
 
@@ -239,11 +277,14 @@ h4{
 
 
 .Inleiding{
-	margin-top: 60px;
+	margin-top: 150px;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 555px;
 	height: auto;
 	line-height: 30px;
+	color: white;
 }
 
 #Bold{
@@ -257,8 +298,7 @@ h4{
 	padding: 0px;
 	display: flex;
 	align-content: flex-start;
-	flex-flow: column;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 ul{
@@ -268,7 +308,7 @@ ul{
 .ProjectFlexbox{
 	padding-left: 18.5%;
 	padding-right: 18.5%;
-	margin-top: 100px;
+	margin-top: 0px;
 }
 
 .Uitleg{
@@ -292,7 +332,7 @@ ul{
 }
 
 .imgdavepf{
-	padding-top: 50px;
+	margin-top: 100px;
 	width: 100%;
 }
 
@@ -472,7 +512,7 @@ footer{
 .FooterLink{
 	font-size: 16px;
 	font-weight: 300;
-	color: #A95B00;
+	color: #D58628;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -533,7 +573,7 @@ footer{
 
 
 nav{
-  background: #A95B00;
+  background: #D58628;
   margin-left: 18%;
   margin-right: 18%;
   padding: 0px;
@@ -683,8 +723,7 @@ nav ul li.btn.hide i:before{
 
 	.Inleiding{
 		text-align: left;
-		min-width: 555px;
-		max-width: 100%
+		max-width: 555px;
 	}
 	
 	.Uitleg{
@@ -862,9 +901,15 @@ nav ul li.btn.hide i:before{
 	
 	.WebsiteButton{
 		margin-top: 35px;
-		margin-bottom: 50px;
+		margin-bottom: 0px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
+	a{
+		text-decoration: none;
+	}
 
 	.Explain{
 		padding-left: 5.5%;
@@ -886,6 +931,13 @@ nav ul li.btn.hide i:before{
 		width: 100%;
 	}
 
+	.RowDiv{
+		margin-top: 60px;
+	}
+
+	#RowImage{
+		margin-top: 40px;
+	}
 
 	.MenuBalk{
 		padding-right: 5.5%;
@@ -895,7 +947,6 @@ nav ul li.btn.hide i:before{
 
 		height: 110px;
 	}
-
 
 	.flex-container{
 		max-width: 100%;
@@ -929,12 +980,13 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Inleiding{
-		height: auto;
-		min-width: 320px;
-	    max-width: 100%;
+			height: auto;
+			min-width: 320px;
+	    max-width: 555px;
 	    padding-left: 5.5%;
     	padding-right: 5.5%;
     	margin-bottom: 0px;
+    	margin-top: 100px;
 	}
 
 
@@ -961,7 +1013,7 @@ nav ul li.btn.hide i:before{
 	.flex-item3:nth-of-type(2) { order: 2; }
 
 	.Selfie{
-		margin-top: 60px;
+		margin-top: 100px;
 		text-align: center;
 	}
 
@@ -1015,7 +1067,7 @@ nav ul li.btn.hide i:before{
 	.imgdavepf{
 		width: 100%;
 		height: auto;
-		padding-top: 10px;
+		margin-top: 100px;
 	}
 
 	.ButtonBlue{
@@ -1074,6 +1126,18 @@ nav ul li.btn.hide i:before{
 		margin-right: auto;
 	}
 
+	.Image-box{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: auto;
+		margin-top: 0px;
+		margin-right: auto;
+	}
+
+
+
+
+
 
 	nav ul li.btn{
 		margin-right: 0%;
@@ -1097,4 +1161,11 @@ nav ul li.btn.hide i:before{
 }
 
 
+@media screen and (max-width: 690px) {
 
+	#HeaderImage{
+		margin-top: 50px;
+	}
+
+
+}

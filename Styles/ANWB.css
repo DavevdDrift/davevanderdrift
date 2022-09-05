@@ -1,24 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 
 body{
-	background-color: #8E7200;
+	background-color: #FFCD00;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
 }
 
 header{
-	background-color: #8E7200;
-	color: white;
+	background-color: #FFCD00;
+	color: black;
 }
 
 .header-box{
-	background-color: #8E7200;
-	color: white; 
+	background-color: #FFCD00;
+	color: black; 
 	padding-left: 18%;
 	padding-right: 18%;
 }
 
+.Image-box{
+	background-color: #FFCD00;
+	color: black; 
+	padding-left: 18%;
+	padding-right: 18%;
+	max-width: 1150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .MainLogo{
 	width: 50px;
@@ -27,25 +41,44 @@ header{
 footer{
 	padding-left: 18%;
 	padding-right: 18%;
-	background-color: white;
+	background-color: black;
 	margin-top: 200px;
 }
 
 h1{
-	font-size: 96px;
+	font-family: 'Arimo';
+	font-style: normal;
 	font-weight: 700;
-	line-height: 110%;
+	font-size: 96px;
+	line-height: 91.5%;
+	/* identical to box height, or 88px */
+	text-align: center;
+	color: #003D86;
 }
 
 h2{
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 30px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: black;
+	max-width: 1152px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h3{
-	font-size: 36px;
-	font-weight: 700;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+text-align: center;
+color: black;
+
 }
 
 h4{
@@ -55,19 +88,13 @@ h4{
 
 p{
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 400;
 }
-
-#Bold{
-	font-weight: 700;
-	font-size: 24px;
-}
-
 
 .Menu{
 	font-size: 16px;
 	font-weight: 700;
-	color: white;
+	color: black;
 	text-decoration: none;
 	text-align: right;
 }
@@ -82,44 +109,39 @@ p{
 
 .Explain{
 	background-color: black;
-	color: white;
+	color: black;
 	margin: 0px;
 	padding-left: 18%;
 	padding-right: 18%;
 }
 
-.ButtonWhite{
-	width: 320px;
-	height: 50px;
-	color: #667EFF;
-	background: white;
-	font-size: 16px;
-	font-weight: 700;
-	text-align: center;
-	border: none; 
-}
-
-
 .WebsiteButton{
 	width: 320px;
 	height: 50px;
-	color: #8E7200;
-	background: white;
+	color: #FFCD00;
+	background: #003D86;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
 	border: none; 
 	margin-top: 50px;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
+button{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .WebsiteButton:hover{
-	background-color: #8E7200;
-	color: white;
+	background-color: #FFCD00;
+	color: #003D86;
 	border-width: 3px;
 	border-style: solid;
-	border-color: white; 
+	border-color: #003D86; 
 	outline: none;
 }
 
@@ -128,15 +150,23 @@ p{
 }
 
 
-.ButtonWhiteIntro:focus{
-	outline: none;
+
+.ButtonWhite{
+	width: 320px;
+	height: 50px;
+	color: #667EFF;
+	background: black;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	border: none; 
 }
 
 .ButtonWhiteIntro{
 	width: 320px;
 	height: 50px;
 	color: #667EFF;
-	background: white;
+	background: black;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -148,10 +178,10 @@ p{
 
 .ButtonWhiteIntro:hover{
 	background-color: #667EFF;
-	color: white;
+	color: black;
 	border-width: 3px;
 	border-style: solid;
-	border-color: white; 
+	border-color: black; 
 	outline: none;
 }
 
@@ -163,7 +193,7 @@ p{
 .ButtonBlue{
 	width: 320px;
 	height: 50px;
-	color: white;
+	color: black;
 	background: #667EFF;
 	font-size: 16px;
 	font-weight: 700;
@@ -172,7 +202,7 @@ p{
 }
 
 .ButtonBlue:hover{
-	background-color: white;
+	background-color: black;
 	color: #667EFF;
 	border-width: 3px;
 	border-style: solid;
@@ -187,11 +217,11 @@ p{
 
 .Intro{
 	margin-top: 150px;
-	max-width: 596px;
+
 }
 
 .Selfie{
-	margin-top: 150px;
+	margin-top: 0px;
 }
 
 
@@ -216,12 +246,12 @@ h1{
 }
 
 h2{
-	margin-top: 10px;
+	margin-top: 32px;
 	margin-bottom: 0px;
 }
 
 h3{
-	margin-top: 0px;
+	margin-top: 16px;
 	margin-bottom: 0px;
 }
 
@@ -248,20 +278,29 @@ h4{
 
 
 .Inleiding{
-	margin-top: 60px;
+	margin-top: 150px;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 555px;
 	height: auto;
 	line-height: 30px;
+	color: black;
 }
+
+#Bold{
+	font-weight: 700;
+	font-size: 24px;
+	color: #003D86;
+}
+
 
 .flex-container{
 	margin: 0px;
 	padding: 0px;
 	display: flex;
 	align-content: flex-start;
-	flex-flow: column;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 ul{
@@ -271,7 +310,7 @@ ul{
 .ProjectFlexbox{
 	padding-left: 18.5%;
 	padding-right: 18.5%;
-	margin-top: 100px;
+	margin-top: 0px;
 }
 
 .Uitleg{
@@ -295,7 +334,7 @@ ul{
 }
 
 .imgdavepf{
-	padding-top: 50px;
+	margin-top: 100px;
 	width: 100%;
 }
 
@@ -362,7 +401,12 @@ ul{
 }
 
 
-
+#Small{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 650px;
+}
 
 
 .Contact{
@@ -418,7 +462,7 @@ input[type=text], select, textarea {
 input[type=submit] {
 	width: 320px;
 	height: 50px;
-	color: white;
+	color: black;
 	background-color: #667EFF;
 	font-size: 16px;
 	font-weight: 700;
@@ -431,7 +475,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a dark blue color */
 input[type=submit]:hover {
-  	background-color: white;
+  	background-color: black;
   	border-width: 3px;
   	color: #667EFF;
   	border-color: #667EFF;
@@ -468,14 +512,13 @@ input[type=submit]:hover {
 }
 
 footer{
-	background-color: white;
-	color: #8E7200;
+	background-color: #FFCD00;
 }
 
 .FooterLink{
 	font-size: 16px;
 	font-weight: 300;
-	color: #8E7200;
+	color: #003D86;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -535,15 +578,8 @@ footer{
 }
 
 
-
-
-
-
-
-
-
 nav{
-  background: #8E7200;
+  background: #FFCD00;
   margin-left: 18%;
   margin-right: 18%;
   padding: 0px;
@@ -576,7 +612,7 @@ nav ul li.items:after{
   content: '';
   left: 0;
   bottom: 5px;
-  background: white;
+  background: black;
   height: 2px;
   width: 100%;
 
@@ -589,20 +625,20 @@ nav ul li.items:hover:after{
 }
 nav ul li.logo{
   flex: 1;
-  color: white;
+  color: black;
   font-size: 23px;
   font-weight: 700;
   cursor: default;
   user-select: none;
 }
 nav ul li a{
-  color: white;
+  color: black;
   font-size: 18px;
   text-decoration: none;
   transition: .4s;
 }
 nav ul li:hover a{
-  color: white;
+  color: black;
 }
 nav ul li i{
   font-size: 23px;
@@ -616,7 +652,7 @@ nav ul li.btn.hide i:before{
 
 
 .Beschrijving{
-	color: white;
+	color: black;
 	flex-flow: wrap;
 	justify-content: space-between;
 	align-items: baseline;
@@ -632,8 +668,6 @@ nav ul li.btn.hide i:before{
 }
 
 .flex-item5{
-	margin-right: auto;
-	margin-left: auto;
 	margin-top: 100px;
 
 }
@@ -695,8 +729,7 @@ nav ul li.btn.hide i:before{
 
 	.Inleiding{
 		text-align: left;
-		min-width: 555px;
-		max-width: 100%
+		max-width: 555px;
 	}
 	
 	.Uitleg{
@@ -871,10 +904,17 @@ nav ul li.btn.hide i:before{
 		line-height: 26px;
 		text-align: center;
 	}
-
+	
 	.WebsiteButton{
 		margin-top: 35px;
-		margin-bottom: 50px;
+		margin-bottom: 0px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	a{
+		text-decoration: none;
 	}
 
 	.Explain{
@@ -897,6 +937,13 @@ nav ul li.btn.hide i:before{
 		width: 100%;
 	}
 
+	.RowDiv{
+		margin-top: 60px;
+	}
+
+	#RowImage{
+		margin-top: 40px;
+	}
 
 	.MenuBalk{
 		padding-right: 5.5%;
@@ -906,7 +953,6 @@ nav ul li.btn.hide i:before{
 
 		height: 110px;
 	}
-
 
 	.flex-container{
 		max-width: 100%;
@@ -940,12 +986,13 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Inleiding{
-		height: auto;
-		min-width: 320px;
-	    max-width: 100%;
+			height: auto;
+			min-width: 320px;
+	    max-width: 555px;
 	    padding-left: 5.5%;
     	padding-right: 5.5%;
     	margin-bottom: 0px;
+    	margin-top: 100px;
 	}
 
 
@@ -972,12 +1019,12 @@ nav ul li.btn.hide i:before{
 	.flex-item3:nth-of-type(2) { order: 2; }
 
 	.Selfie{
-		margin-top: 60px;
+		margin-top: 100px;
 		text-align: center;
 	}
 
 	.Intro{
-		margin-top: 60px;
+		margin-top: 50px;
 		max-width: 100%;
 		padding-left: 5.5%;
 	    padding-right: 5.5%;
@@ -1026,7 +1073,7 @@ nav ul li.btn.hide i:before{
 	.imgdavepf{
 		width: 100%;
 		height: auto;
-		padding-top: 10px;
+		margin-top: 100px;
 	}
 
 	.ButtonBlue{
@@ -1081,9 +1128,21 @@ nav ul li.btn.hide i:before{
 		padding-left: 0px;
 		padding-right: 0px;
 		margin-left: auto;
-		margin-right: auto;
 		margin-top: 50px;
+		margin-right: auto;
 	}
+
+	.Image-box{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: auto;
+		margin-top: 0px;
+		margin-right: auto;
+	}
+
+
+
+
 
 
 	nav ul li.btn{
@@ -1108,4 +1167,11 @@ nav ul li.btn.hide i:before{
 }
 
 
+@media screen and (max-width: 690px) {
 
+	#HeaderImage{
+		margin-top: 50px;
+	}
+
+
+}

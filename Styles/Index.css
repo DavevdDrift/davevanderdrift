@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap');
 
 html, body{
 	margin: 0px;
@@ -218,6 +221,27 @@ p{
 	outline: none;
 }
 
+.ProjectButton{
+	width: 320px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	border: none;
+}
+
+.ProjectButton:hover{
+	background-color: white;
+	border-width: 3px;
+	border-style: solid;
+	outline: none;
+}
+
+.ProjectButton:focus{
+	outline: none;
+}
+
+
 .Intro{
 	margin-top: 225px;
 	max-width: 892px;
@@ -236,8 +260,6 @@ p{
 }
 
 .InfoRight{
-
-
 	padding-top: 75px;
 	padding-bottom: 0px; 
 	max-width: 557px;
@@ -279,6 +301,284 @@ h4{
 	height: 140px;
 }
 
+.AfbeeldingLinks{
+	float: left;
+}
+
+.AfbeeldingRechts{
+	float: right;
+}
+
+.ContentLinks{
+	display: table-cell;
+	vertical-align: middle;
+	width: 575px;
+	height: 550px;
+	margin-top: 100px;
+	float: left;
+	position: relative;
+}
+
+.ContentRechts{
+	display: table-cell;
+	vertical-align: middle;
+	width: 575px;
+	height: 550px;
+	margin-top: 100px;
+	float: right;
+	position: relative;
+}
+
+
+
+.Center{
+	display: inline-block;
+	padding-left: 70px;
+  position: absolute;
+    top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.ProjectTags{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	margin-top: 0px;
+}
+
+.ProjectTitel{
+	margin-top: 0px;
+	margin-bottom: 16px;
+}
+
+.ProjectInfo{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+
+.ProjectTitel{
+	font-size: 64px;
+}
+
+#KaasTitel{
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 700;
+	line-height: 91.5%;
+	/* or 59px */
+	display: flex;
+	align-items: center;
+	color: #245A50;
+}
+
+.Brown{
+	color: #453931;
+	display: contents;
+}
+
+#Kaas{
+	color: white;
+	background: #245A50;
+}
+
+#Kaas:hover{
+	color: #245A50;
+	background-color: white;
+	border-color: #245A50;
+}
+
+
+#MidusaTitel{
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 700;
+	line-height: 95.5%;
+	/* or 59px */
+	display: flex;
+	align-items: center;
+	color: black;
+}
+
+
+.Roze{
+	color: #FC57E1;
+	display: contents;
+}
+
+#Midusa{
+	background-color: black;
+	color: white;
+}
+
+#Midusa:hover{
+	color: black;
+	background-color: white;
+	border-color: black;
+}
+
+
+#KlandizieTitel{
+	font-family: 'Rochester';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 82px;
+	display: flex;
+	align-items: center;
+
+}
+
+.Orange{
+	color: #D58628;
+	display: contents;
+}
+
+#Klandizie{
+	background-color: #D58628;
+	color: white;
+}
+
+#Klandizie:hover{
+	color: #D58628;
+	background-color: white;
+	border-color: #D58628;
+}
+
+
+#RijksoverheidTitel{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 91.5%;
+/* or 59px */
+display: flex;
+align-items: center;
+
+}
+
+.DarkBlue{
+	color: #1B4879;
+	display: contents;
+}
+
+.Black{
+	color: black;
+	display: contents;
+}
+
+
+#Rijksoverheid{
+	background-color: #1B4879;
+	color: white;
+}
+
+#Rijksoverheid:hover{
+	color: #1B4879;
+	background-color: white;
+	border-color: #1B4879;
+}
+
+
+#FamilySportsTitel{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 91.5%;
+/* or 59px */
+display: flex;
+align-items: center;
+
+}
+
+.FamilyGreen{
+	color: #5C7A37;
+	display: contents;
+}
+
+
+#FamilySports{
+	background-color: #5C7A37;
+	color: white;
+}
+
+#FamilySports:hover{
+	color: #5C7A37;
+	background-color: white;
+	border-color: #5C7A37;
+}
+
+
+#YCTitel{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 900;
+line-height: 54px;
+/* or 84% */
+display: flex;
+align-items: center;
+letter-spacing: -0.002em;
+}
+
+.YCOrange{
+	color: #F77F00;
+	display: contents;
+}
+
+
+#YC{
+	background-color: #F77F00;
+	color: white;
+}
+
+#YC:hover{
+	color: #F77F00;
+	background-color: white;
+	border-color: #F77F00;
+}
+
+
+#JobbirdTitel{
+	font-family: 'Maven Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 55px;
+	/* or 86% */
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.03em;
+}
+
+.JobPink{
+	color: #FE0AF0;
+	display: contents;
+}
+
+#JobbirdButton{
+	background-color: #FE0AF0;
+	color: white;
+}
+
+#JobbirdButton:hover{
+	color: #FE0AF0;
+	background-color: white;
+	border-color: #FE0AF0;
+}
+
+
+
 
 .Inleiding{
 	margin-top: 60px;
@@ -293,8 +593,9 @@ h4{
 	padding: 0px;
 	display: flex;
 	align-content: flex-start;
-	flex-flow: row wrap;
 	justify-content: space-between;
+	flex-direction: column;
+  align-items: center;
 }
 
 .ProfilePicture{
@@ -324,7 +625,7 @@ ul{
 } 
 
 .ButtonViewMore{
-	margin-top: 60px;
+	margin-top: 150px;
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
@@ -333,7 +634,7 @@ ul{
 }
 
 .imgdavepf{
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 .Socials{
@@ -555,48 +856,11 @@ footer{
 
 
 
-
-
-
 .flex-item1{
   	position: relative;
   	width: auto;
   	height: auto;
 }
-
-.img__description {
-  	position: absolute;
-  	top: 0;
-  	bottom: 0;
-  	left: 0;
-  	right: 0;
-  	background: rgba(255, 255, 255, 0.75);
-  	color: black;
-  	font-size: 36px;
-  	font-weight: 700;
-  	visibility: hidden;
-  	opacity: 0;
-  	margin-top: 50px;
-  	margin-bottom: 4px;
-  	text-align: center;
-  	padding-top: 130px;
-  	padding-left: 40px;
-  	padding-right: 40px;
-
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
-
-.flex-item1:hover .img__description {
-  visibility: visible;
-  opacity: 1;
-}
-
-
-
-
-
-
 
 
 
@@ -702,6 +966,46 @@ nav ul li.btn.hide i:before{
 	min-height: 1080px;
 }
 
+@media screen and (max-width: 1830px) {
+
+	.flex-item1{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.AfbeeldingLinks{
+		float: none;
+	}
+
+	.AfbeeldingRechts{
+		float: none;
+		order: 1;
+	}
+
+	.ContentLinks{
+		float:  left;
+		margin-top: 32px;
+		height: auto;
+		order: 2;
+	}	
+
+	.ContentRechts{
+		float:  right;
+		margin-top: 32px;
+		height: auto;
+	}	
+
+	.Center{
+		padding-left: 0px;
+		transform: translateY(-0%);
+		display: inline-block;
+		position: relative;
+	}
+
+
+
+}
+
 
 @media screen and (max-width: 1740px) {
 
@@ -800,7 +1104,8 @@ nav ul li.btn.hide i:before{
 		min-width: 555px;
 		max-width: 100%
 	}
-	
+
+
 	nav{
 		margin-left: auto;
 		margin-right: auto;
@@ -828,7 +1133,7 @@ nav ul li.btn.hide i:before{
 
 	.ButtonViewMore{
 		text-align: center;
-		margin-top: 60px;
+		margin-top: 150px;
 	}
 
 	.Title{
@@ -861,7 +1166,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.flex-container{
-		text-align: center;
+		text-align: left;
 	}
 
 	.InfoLeft{
@@ -1108,6 +1413,46 @@ nav ul li.btn.hide i:before{
 	    max-width: 750px;
 	}	
 
+
+	.ContentRechts{
+		margin-top: 15px;
+		margin-bottom: 100px;
+		width: 320px;
+		height: auto;
+	}
+
+	.ContentLinks{
+		margin-top: 15px;
+		margin-bottom: 80px;
+		width: 320px;
+		height: auto;
+	}
+
+	.ProjectTitel{
+		font-size: 48px;
+	}
+
+	#RijksoverheidTitel{
+		font-size: 48px;
+	}
+	
+	#FamilySportsTitel{
+		font-size: 48px;
+	}
+
+	#YCTitel{
+		line-height: 40px;
+	}
+
+  #JobbirdTitel{
+		font-size: 48px;
+		line-height: 40px;
+	}
+
+	#KlandizieTitel{
+		font-size: 56px;
+	}
+
 	.Explain{
 		padding-left: 5.5%;
 		padding-right: 5.5%;
@@ -1130,6 +1475,10 @@ nav ul li.btn.hide i:before{
 	input[type=text], select, textarea {
 		width: 100%;
 	}
+
+.Center{
+	padding-left: 0px;
+}
 
 
 	.MenuBalk{
@@ -1157,7 +1506,9 @@ nav ul li.btn.hide i:before{
 	    margin-right: auto;
 	}
 
-
+.Center{
+	position: sticky;
+}
 
 	.ProjectFlexbox{
 	    padding-left: 5.5%; 
@@ -1265,12 +1616,11 @@ nav ul li.btn.hide i:before{
 	}
 
 	.ButtonBlueProjects{
-		margin-bottom: 100px;
+		margin-bottom: 200px;
 	}
 
-	.img__description{
-		margin-top: 10px;
-	}
+
+
 
 	.Message{
 		width: 320px;
@@ -1376,7 +1726,6 @@ nav ul li.btn.hide i:before{
 	.Center{
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 80px;
 	}
 
 	.waterbg{

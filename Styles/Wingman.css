@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 
 body{
 	background-color: #D36F13;
@@ -19,9 +22,15 @@ header{
 	padding-right: 18%;
 }
 
-#Bold{
-	font-weight: 700;
-	font-size: 24px;
+.Image-box{
+	background-color: #D36F13;
+	color: white; 
+	padding-left: 18%;
+	padding-right: 18%;
+	max-width: 1150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .MainLogo{
@@ -36,20 +45,41 @@ footer{
 }
 
 h1{
-	font-size: 96px;
+	font-family: 'Roboto';
+	font-style: normal;
 	font-weight: 700;
-	line-height: 110%;
+	font-size: 96px;
+	line-height: 91.5%;
+	/* identical to box height, or 88px */
+	text-align: center;
+	color: #FFFFFF;
+
 }
 
 h2{
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 30px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #FFFFFF;
+	max-width: 1152px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h3{
-	font-size: 36px;
-	font-weight: 700;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+text-align: center;
+
+color: #FFFFFF;
 }
 
 h4{
@@ -59,7 +89,7 @@ h4{
 
 p{
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .Menu{
@@ -97,7 +127,14 @@ p{
 	border: none; 
 	margin-top: 50px;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
 
+}
+
+button{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .WebsiteButton:hover{
@@ -112,6 +149,7 @@ p{
 .WebsiteButton:focus{
 	outline: none;
 }
+
 
 
 .ButtonWhite{
@@ -180,11 +218,11 @@ p{
 
 .Intro{
 	margin-top: 150px;
-	max-width: 533px;
+
 }
 
 .Selfie{
-	margin-top: 150px;
+	margin-top: 0px;
 }
 
 
@@ -209,12 +247,12 @@ h1{
 }
 
 h2{
-	margin-top: 10px;
+	margin-top: 32px;
 	margin-bottom: 0px;
 }
 
 h3{
-	margin-top: 0px;
+	margin-top: 16px;
 	margin-bottom: 0px;
 }
 
@@ -222,6 +260,26 @@ h4{
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
+
+.iframe-container{
+  position: relative;
+  max-width: 1150px;
+  padding-bottom: max(650px); 
+  margin-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 
 .UxInfo1{
 	margin-top: 30px;
@@ -241,24 +299,28 @@ h4{
 
 
 .Inleiding{
-	margin-top: 60px;
+	margin-top: 150px;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 555px;
 	height: auto;
 	line-height: 30px;
+	color: white;
 }
+
+#Bold{
+	font-weight: 700;
+	font-size: 24px;
+}
+
 
 .flex-container{
 	margin: 0px;
 	padding: 0px;
 	display: flex;
 	align-content: flex-start;
-	flex-flow: column;
-	justify-content: space-between;
-}
-
-.ProjectGrid{
-	display: block;
+	justify-content: center;
 }
 
 ul{
@@ -268,7 +330,7 @@ ul{
 .ProjectFlexbox{
 	padding-left: 18.5%;
 	padding-right: 18.5%;
-	margin-top: 100px;
+	margin-top: 0px;
 }
 
 .Uitleg{
@@ -292,24 +354,9 @@ ul{
 }
 
 .imgdavepf{
-	padding-top: 50px;
+	margin-top: 100px;
 	width: 100%;
-}
 
-.iframe-container{
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; 
-  height: 0;
-  margin-top: 60px;
-}
-.iframe-container iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
 }
 
 .Socials{
@@ -375,7 +422,12 @@ ul{
 }
 
 
-
+#Small{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 650px;
+}
 
 
 .Contact{
@@ -482,7 +534,7 @@ input[type=submit]:hover {
 
 footer{
 	background-color: white;
-	color: #D36F13;
+	color: #A95B00;
 }
 
 .FooterLink{
@@ -546,13 +598,6 @@ footer{
   visibility: visible;
   opacity: 1;
 }
-
-
-
-
-
-
-
 
 
 nav{
@@ -645,8 +690,6 @@ nav ul li.btn.hide i:before{
 }
 
 .flex-item5{
-	margin-right: auto;
-	margin-left: auto;
 	margin-top: 100px;
 
 }
@@ -708,8 +751,7 @@ nav ul li.btn.hide i:before{
 
 	.Inleiding{
 		text-align: left;
-		min-width: 555px;
-		max-width: 100%
+		max-width: 555px;
 	}
 	
 	.Uitleg{
@@ -809,6 +851,15 @@ nav ul li.btn.hide i:before{
 		margin-top: 50px;
 	}
 
+	.iframe-container {
+	  padding-bottom: max(450px); 
+	}
+
+	.iframe-container iframe{
+	  padding-bottom: max(450px); 
+	}
+
+
 	.ProjectFlexbox{
 		 margin-top: 0px;
 	}	
@@ -856,7 +907,7 @@ nav ul li.btn.hide i:before{
     opacity: 0;
   }
 
-    .fas{
+  .fas{
   	font-size: 40px;
   }
 
@@ -875,7 +926,7 @@ nav ul li.btn.hide i:before{
 	h1{
 		font-size: 48px;
 		max-width: 100%;
-		line-height: 110%%;
+		line-height: 110%;
 		text-align: center;
 	}
 
@@ -884,10 +935,17 @@ nav ul li.btn.hide i:before{
 		line-height: 26px;
 		text-align: center;
 	}
-
+	
 	.WebsiteButton{
 		margin-top: 35px;
-		margin-bottom: 50px;
+		margin-bottom: 0px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	a{
+		text-decoration: none;
 	}
 
 	.Explain{
@@ -910,6 +968,13 @@ nav ul li.btn.hide i:before{
 		width: 100%;
 	}
 
+	.RowDiv{
+		margin-top: 60px;
+	}
+
+	#RowImage{
+		margin-top: 40px;
+	}
 
 	.MenuBalk{
 		padding-right: 5.5%;
@@ -919,7 +984,6 @@ nav ul li.btn.hide i:before{
 
 		height: 110px;
 	}
-
 
 	.flex-container{
 		max-width: 100%;
@@ -953,12 +1017,13 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Inleiding{
-		height: auto;
-		min-width: 320px;
-	    max-width: 100%;
+			height: auto;
+			min-width: 320px;
+	    max-width: 555px;
 	    padding-left: 5.5%;
     	padding-right: 5.5%;
     	margin-bottom: 0px;
+    	margin-top: 100px;
 	}
 
 
@@ -985,12 +1050,12 @@ nav ul li.btn.hide i:before{
 	.flex-item3:nth-of-type(2) { order: 2; }
 
 	.Selfie{
-		margin-top: 60px;
+		margin-top: 100px;
 		text-align: center;
 	}
 
 	.Intro{
-		margin-top: 60px;
+		margin-top: 50px;
 		max-width: 100%;
 		padding-left: 5.5%;
 	    padding-right: 5.5%;
@@ -1039,7 +1104,7 @@ nav ul li.btn.hide i:before{
 	.imgdavepf{
 		width: 100%;
 		height: auto;
-		padding-top: 10px;
+		margin-top: 100px;
 	}
 
 	.ButtonBlue{
@@ -1094,8 +1159,21 @@ nav ul li.btn.hide i:before{
 		padding-left: 0px;
 		padding-right: 0px;
 		margin-left: auto;
+		margin-top: 50px;
 		margin-right: auto;
 	}
+
+	.Image-box{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: auto;
+		margin-top: 0px;
+		margin-right: auto;
+	}
+
+
+
+
 
 
 	nav ul li.btn{
@@ -1117,7 +1195,25 @@ nav ul li.btn.hide i:before{
 		margin-right: auto;
 	}
 
+	.iframe-container {
+	  padding-bottom: max(250px); 
+	}
+
+	.iframe-container iframe{
+	  padding-bottom: max(250px); 
+	}
+
+
+
+
 }
 
 
+@media screen and (max-width: 690px) {
 
+	#HeaderImage{
+		margin-top: 50px;
+	}
+
+
+}

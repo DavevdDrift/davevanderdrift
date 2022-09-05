@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 
 body{
+	background-color: #151515;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
-	background-color: #151515;
 }
 
 header{
@@ -20,10 +23,15 @@ header{
 	padding-right: 18%;
 }
 
-#Bold{
-	font-weight: 700;
-	font-size: 24px;
-	color: #FC57E1;
+.Image-box{
+	background-color: #151515;
+	color: white; 
+	padding-left: 18%;
+	padding-right: 18%;
+	max-width: 1150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .MainLogo{
@@ -38,27 +46,36 @@ footer{
 }
 
 h1{
-	font-size: 96px;
+	font-family: 'PT Serif';
+	font-style: normal;
 	font-weight: 700;
-	font-family: PT Serif;
 	font-size: 86px;
-	line-height: 108.5%;
+	line-height: 91.5%;
+	/* or 79px */
+	text-align: center;
 }
 
 h2{
-	font-size: 18px;
+	font-family: 'Roboto';
+	font-style: normal;
 	font-weight: 700;
-	line-height: 30px;
-	color: white;
-}
-
-.Roze{
-	color: #FC57E1;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #FFFFFF;
+	max-width: 1152px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h3{
-	font-size: 36px;
+	font-family: 'Roboto';
+	font-style: normal;
 	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+
 }
 
 h4{
@@ -68,17 +85,7 @@ h4{
 
 p{
 	font-size: 16px;
-	font-weight: 300;
-}
-
-a{
-	color: #FC57E1;
-	font-weight: 700;
-}
-
-a:hover{
-	color: #FC57E1;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 .Menu{
@@ -108,29 +115,37 @@ a:hover{
 .WebsiteButton{
 	width: 320px;
 	height: 50px;
-	color: white;
-	background: #FC57E1;
+	color: #151515;
+	background: white;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
 	border: none; 
 	margin-top: 50px;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
+button{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .WebsiteButton:hover{
-	background-color: #FC57E1;
+	background-color: #151515;
 	color: white;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #FC57E1; 
+	border-color: white; 
 	outline: none;
 }
 
 .WebsiteButton:focus{
 	outline: none;
 }
+
 
 
 .ButtonWhite{
@@ -199,11 +214,11 @@ a:hover{
 
 .Intro{
 	margin-top: 150px;
-	max-width: 533px;
+
 }
 
 .Selfie{
-	margin-top: 150px;
+	margin-top: 0px;
 }
 
 
@@ -212,6 +227,14 @@ a:hover{
 	padding-top: 75px;
 	padding-bottom: 0px; 
 	max-width: 557px;
+}
+
+.white{
+	color: white;
+}
+
+.roze{
+	color: #FC57E1;
 }
 
 .InfoRight{
@@ -228,12 +251,12 @@ h1{
 }
 
 h2{
-	margin-top: 55px;
+	margin-top: 32px;
 	margin-bottom: 0px;
 }
 
 h3{
-	margin-top: 0px;
+	margin-top: 16px;
 	margin-bottom: 0px;
 }
 
@@ -260,41 +283,30 @@ h4{
 
 
 .Inleiding{
-	margin-top: 60px;
+	margin-top: 150px;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 555px;
 	height: auto;
 	line-height: 30px;
 	color: white;
-	font-weight: 300;
 }
+
+#Bold{
+	font-weight: 700;
+	font-size: 24px;
+	color: #FC57E1;
+}
+
 
 .flex-container{
 	margin: 0px;
 	padding: 0px;
 	display: flex;
 	align-content: flex-start;
-	flex-flow: column;
-	justify-content: space-between;
+	justify-content: center;
 }
-
-.flex-container2{
-	margin: 0px;
-	padding: 0px;
-	display: flex;
-	align-content: flex-start;
-	flex-flow: wrap;
-	justify-content: space-between;
-}
-
-.ProjectGrid{
-	display: block;
-}
-
-.ProjectGrid2{
-	display: flex;
-}
-
 
 ul{
 	list-style: none;
@@ -303,7 +315,7 @@ ul{
 .ProjectFlexbox{
 	padding-left: 18.5%;
 	padding-right: 18.5%;
-	margin-top: 100px;
+	margin-top: 0px;
 }
 
 .Uitleg{
@@ -327,30 +339,8 @@ ul{
 }
 
 .imgdavepf{
-	padding-top: 50px;
+	margin-top: 100px;
 	width: 100%;
-}
-
-.imgdavepf2{
-	padding-top: 50px;
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-}
-
-
-.iframe-container{
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; 
-  height: 0;
-  margin-top: 60px;
-}
-.iframe-container iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
 }
 
 .Socials{
@@ -472,7 +462,7 @@ input[type=text], select, textarea {
 input[type=submit] {
 	width: 320px;
 	height: 50px;
-	color: #FC57E1;
+	color: white;
 	background-color: #667EFF;
 	font-size: 16px;
 	font-weight: 700;
@@ -485,7 +475,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a dark blue color */
 input[type=submit]:hover {
-  	background-color: #FC57E1;
+  	background-color: white;
   	border-width: 3px;
   	color: #667EFF;
   	border-color: #667EFF;
@@ -522,14 +512,14 @@ input[type=submit]:hover {
 }
 
 footer{
-	background-color: #0E0E0E;
-	color: #FC57E1;
+	background-color: #151515;
+	color: white;
 }
 
 .FooterLink{
 	font-size: 16px;
 	font-weight: 300;
-	color: #FC57E1;
+	color: white;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -596,7 +586,6 @@ nav{
   padding: 0px;
 
 }
-
 nav ul{
   list-style: none;
   display: flex;
@@ -606,13 +595,11 @@ nav ul{
   padding-left: 0%;
   margin-top: 0px;
 }
-
 nav ul li{
   padding: 50px 0;
   padding-bottom: 10px;
   cursor: pointer;
 }
-
 nav ul li.items{
   position: relative;
   width: auto;
@@ -621,56 +608,47 @@ nav ul li.items{
   order: 3;
   font-weight: 700;
 }
-
 nav ul li.items:after{
   position: absolute;
   content: '';
   left: 0;
   bottom: 5px;
-  background: #FC57E1;
+  background: white;
   height: 2px;
   width: 100%;
+
   opacity: 0;
   transition: all 0.2s linear;
 }
-
 nav ul li.items:hover:after{
   opacity: 1;
   bottom: 10px;
-    color: #FC57E1;
 }
-
 nav ul li.logo{
   flex: 1;
-  color: #FC57E1;
+  color: white;
   font-size: 23px;
   font-weight: 700;
   cursor: default;
   user-select: none;
 }
-
 nav ul li a{
-  color: #FC57E1;
+  color: white;
   font-size: 18px;
   text-decoration: none;
   transition: .4s;
 }
-
 nav ul li:hover a{
-    color: #FC57E1;
+  color: white;
 }
-
 nav ul li i{
   font-size: 23px;
 }
-
 nav ul li.btn{
   display: none;
 }
-
 nav ul li.btn.hide i:before{
   content: '\f00d';
-  color: #FC57E1;
 }
 
 
@@ -691,26 +669,9 @@ nav ul li.btn.hide i:before{
 }
 
 .flex-item5{
-	margin-right: auto;
-	margin-left: auto;
 	margin-top: 100px;
 
 }
-
-
-@media screen and (max-width: 1831px) {
-	.flex-item1{
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.imgdavepf2{
-		width: 100%;
-	}
-}
-
-
-
 
 
 
@@ -769,8 +730,7 @@ nav ul li.btn.hide i:before{
 
 	.Inleiding{
 		text-align: left;
-		min-width: 555px;
-		max-width: 100%
+		max-width: 555px;
 	}
 	
 	.Uitleg{
@@ -892,7 +852,6 @@ nav ul li.btn.hide i:before{
     display: none;
     padding-top: 50px;
   	padding-bottom: 50px;
-  	color: #FC57E1;
   }
 
   nav ul li.items2{
@@ -904,27 +863,22 @@ nav ul li.btn.hide i:before{
 
   nav ul li.items.show{
     display: block;
-    color: #FC57E1;
   }
 
   nav ul li.btn{
     display: block;
     margin-right: 5.5%;
-    color: #FC57E1;
   }
 
   nav ul li.items:hover{
     border-radius: 5px;
-    color: #FC57E1;
   }
   nav ul li.items:hover:after{
     opacity: 0;
-    color: #FC57E1;
   }
 
-    .fas{
+  .fas{
   	font-size: 40px;
-  	color: #FC57E1;
   }
 
 
@@ -942,7 +896,7 @@ nav ul li.btn.hide i:before{
 	h1{
 		font-size: 48px;
 		max-width: 100%;
-		line-height: 110%%;
+		line-height: 110%;
 		text-align: center;
 	}
 
@@ -951,10 +905,17 @@ nav ul li.btn.hide i:before{
 		line-height: 26px;
 		text-align: center;
 	}
-
+	
 	.WebsiteButton{
 		margin-top: 35px;
-		margin-bottom: 50px;
+		margin-bottom: 0px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	a{
+		text-decoration: none;
 	}
 
 	.Explain{
@@ -977,6 +938,13 @@ nav ul li.btn.hide i:before{
 		width: 100%;
 	}
 
+	.RowDiv{
+		margin-top: 60px;
+	}
+
+	#RowImage{
+		margin-top: 40px;
+	}
 
 	.MenuBalk{
 		padding-right: 5.5%;
@@ -986,7 +954,6 @@ nav ul li.btn.hide i:before{
 
 		height: 110px;
 	}
-
 
 	.flex-container{
 		max-width: 100%;
@@ -1020,12 +987,13 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Inleiding{
-		height: auto;
-		min-width: 320px;
-	    max-width: 100%;
+			height: auto;
+			min-width: 320px;
+	    max-width: 555px;
 	    padding-left: 5.5%;
     	padding-right: 5.5%;
     	margin-bottom: 0px;
+    	margin-top: 100px;
 	}
 
 
@@ -1052,12 +1020,12 @@ nav ul li.btn.hide i:before{
 	.flex-item3:nth-of-type(2) { order: 2; }
 
 	.Selfie{
-		margin-top: 60px;
+		margin-top: 100px;
 		text-align: center;
 	}
 
 	.Intro{
-		margin-top: 60px;
+		margin-top: 50px;
 		max-width: 100%;
 		padding-left: 5.5%;
 	    padding-right: 5.5%;
@@ -1106,13 +1074,8 @@ nav ul li.btn.hide i:before{
 	.imgdavepf{
 		width: 100%;
 		height: auto;
-		padding-top: 10px;
+		margin-top: 100px;
 	}
-
-	.imgdavepf2{
-		width: 100%;
-	}
-
 
 	.ButtonBlue{
 		margin-bottom: 40px;
@@ -1166,9 +1129,21 @@ nav ul li.btn.hide i:before{
 		padding-left: 0px;
 		padding-right: 0px;
 		margin-left: auto;
-		margin-right: auto;
 		margin-top: 50px;
+		margin-right: auto;
 	}
+
+	.Image-box{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: auto;
+		margin-top: 0px;
+		margin-right: auto;
+	}
+
+
+
+
 
 
 	nav ul li.btn{
@@ -1193,4 +1168,11 @@ nav ul li.btn.hide i:before{
 }
 
 
+@media screen and (max-width: 690px) {
 
+	#HeaderImage{
+		margin-top: 50px;
+	}
+
+
+}

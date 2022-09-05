@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap');
 
 
 body{
-	background-color: #627108;
+	background-color: #151515;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
 }
 
 header{
-	background-color: #627108;
+	background-color: #151515;
 	color: white;
 }
 
 .header-box{
-	background-color: #627108;
+	background-color: #151515;
 	color: white; 
 	padding-left: 18%;
 	padding-right: 18%;
 }
 
 .Image-box{
-	background-color: #627108;
+	background-color: #151515;
 	color: white; 
 	padding-left: 18%;
 	padding-right: 18%;
@@ -45,14 +47,13 @@ footer{
 }
 
 h1{
-	font-family: 'Roboto';
+	font-family: 'Work Sans';
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 900;
 	font-size: 96px;
 	line-height: 91.5%;
-	/* identical to box height, or 88px */
+	/* or 88px */
 	text-align: center;
-	color: #FFFFFF;
 }
 
 h2{
@@ -75,10 +76,9 @@ font-weight: 300;
 font-size: 18px;
 line-height: 30px;
 /* identical to box height, or 167% */
-
 text-align: center;
-
 color: #FFFFFF;
+
 }
 
 h4{
@@ -118,7 +118,7 @@ p{
 .WebsiteButton{
 	width: 320px;
 	height: 50px;
-	color: #627108;
+	color: #151515;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -137,7 +137,7 @@ button{
 }
 
 .WebsiteButton:hover{
-	background-color: #627108;
+	background-color: #151515;
 	color: white;
 	border-width: 3px;
 	border-style: solid;
@@ -232,6 +232,14 @@ button{
 	max-width: 557px;
 }
 
+.white{
+	color: white;
+}
+
+.oranje{
+	color: #F77F00;
+}
+
 .InfoRight{
 
 
@@ -291,8 +299,14 @@ h4{
 #Bold{
 	font-weight: 700;
 	font-size: 24px;
+	color: #F68B1F;
 }
 
+#Bold2{
+	font-size: 16px;
+	color: #F68B1F;
+	font-weight: 700;
+}
 
 .flex-container{
 	margin: 0px;
@@ -506,14 +520,14 @@ input[type=submit]:hover {
 }
 
 footer{
-	background-color: white;
-	color: #A95B00;
+	background-color: #151515;
+	color: white;
 }
 
 .FooterLink{
 	font-size: 16px;
 	font-weight: 300;
-	color: #627108;
+	color: white;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -574,7 +588,7 @@ footer{
 
 
 nav{
-  background: #627108;
+  background: #151515;
   margin-left: 18%;
   margin-right: 18%;
   padding: 0px;
