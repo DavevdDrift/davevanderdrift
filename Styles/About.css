@@ -94,6 +94,13 @@ p{
 	padding-right: 12%;
 }
 
+.ExplainJobs{
+	background-color: white;
+	color: #21468B;
+	margin: 0px;
+
+}
+
 h6 {
     font-size: 205px;
     position: absolute;
@@ -177,6 +184,12 @@ h6 {
 	text-align: center;
 }
 
+.WorkExperience{
+	padding-top: 0px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
 .Intro{
 	margin-top: 90px;
 	max-width: 700px;
@@ -198,7 +211,7 @@ h6 {
 	padding-top: 60px;
 	padding-bottom: 0px; 
 	max-width: 316px;
-	text-align: right
+	text-align: right;
 }
 
 
@@ -262,10 +275,59 @@ h4{
 .flex-container3{
 	margin: 0px;
 	padding: 0px;
-	padding-bottom: 120px;
+	padding-bottom: 150px;
 	display: flex;
 	align-content: flex-start;
 	flex-flow: row wrap;
+	justify-content: center;
+}
+
+
+.container{
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 120px;
+	display: block;
+	justify-content: center;
+}
+
+
+.container2{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	justify-content: center;
+	word-wrap: break-word;
+	margin-right: 50px;
+}
+
+.container3{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	justify-content: center;
+	word-wrap: break-word;
+	margin-right: 150px;
+}
+
+
+#bottom{
+	padding-bottom: 150px;
+}
+
+.Informatieblok{
+	width: 460px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+.experienceblock{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	justify-content: center;
 }
 
@@ -289,10 +351,108 @@ h4{
 	float: left;
 }
 
+.experienceblock{
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  grid-column-gap: 15px;
+  grid-row-gap: 30px;
+
+}
+
+.InfoLinks{
+	float: left;
+}
+
+.InfoRechts{
+	float: right;
+}
+
+
+.InformationLeft{
+	float: left;
+	text-align: right;
+	display: grid;
+	-webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.InformationRight{
+	float: right;
+	text-align: left;
+	display: grid;
+	-webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
 .TextRight{
 	float: right;
 	font-weight: 700;
 }
+
+.Date{
+	display: block;
+	float: left;
+	text-align: right;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: #000000;
+}
+
+.Company{
+	display: block;
+	float: right;
+	text-align: left;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	color: #21468B;
+	max-width: 275px;
+
+}
+
+.Location{
+	display: block;
+	float: left;
+	text-align: right;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+	color: #000000;
+}
+
+.JobTitle{
+	display: block;
+	float:  right;
+	text-align: left;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+	color: #000000;
+
+}
+
 
 .Icon{
 	float: right;
@@ -796,6 +956,10 @@ nav ul li.btn.hide i:before{
 	}
 
 
+
+
+
+
 @media screen and (max-width: 1740px) {
 
 	.flex-item1{
@@ -835,7 +999,6 @@ nav ul li.btn.hide i:before{
 		max-width: none;
 		padding-bottom: 75px;
 	}
-
 
 
 }	
@@ -926,10 +1089,10 @@ nav ul li.btn.hide i:before{
 	
 	.flex-container2{
 		display: flex;
-    	align-content: flex-start;
-    	flex-flow: row wrap;
-    	justify-content: space-between;
-    	text-align: center;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
 	}
 
 
@@ -1456,8 +1619,18 @@ nav ul li.btn.hide i:before{
 		padding-left: 0px;
 	}
 
+
+
 }
 
+
+@media screen and (max-width: 700px) {
+
+	.container3{
+	margin-right: 150px;
+	}
+
+}
 
 @media screen and (max-width: 667px) {
 	.ResponsiveTitle{
@@ -1562,6 +1735,32 @@ nav ul li.btn.hide i:before{
 	header{
 		min-height: 1200px;
 	}
+
+	.container3{
+		margin-right: 125px;
+	}
+
+}
+
+
+@media screen and (max-width: 670px) {
+	
+	.container3{
+		margin-right: 75px;
+	}
+
+}
+
+
+@media screen and (max-width: 360px) {
+	
+	.container3{
+		margin-right: 50px;
+	}
+
+}
+
+
 
 }
 
