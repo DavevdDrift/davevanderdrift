@@ -1,32 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-	background-color: white;
+	background-color: #EAEAEA;
 	font-family: "Roboto", serif;
 	margin: 0px;
 	font-style: normal;
 }
 
 header{
-	background-color: white;
+	background-color: #EAEAEA;
 	color: white;
 }
 
 .header-box{
-	background-color: white;
+	background-color: #EAEAEA;
 	color: white; 
 	padding-left: 18%;
 	padding-right: 18%;
 }
 
-#Title{
-	justify-content: center;
+.Image-box{
+	background-color: #EAEAEA;
+	color: white; 
+	padding-left: 18%;
+	padding-right: 18%;
+	max-width: 1150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .MainLogo{
@@ -41,19 +47,37 @@ footer{
 }
 
 h1{
-	font-size: 96px;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-style: normal;
 	font-weight: 700;
-	font-family: 'Source Serif Pro', serif;
+	font-size: 86px;
+	line-height: 91.5%;
+	/* or 79px */
+	text-align: center;
 }
 
 h2{
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 700;
 	font-size: 24px;
-	font-weight: 300;
+	line-height: 28px;
+	text-align: center;
+	color: black;
+	max-width: 1152px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h3{
-	font-size: 36px;
+	font-family: 'Oswald', sans-serif;
+	font-style: normal;
 	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: black;
 }
 
 h4{
@@ -62,8 +86,14 @@ h4{
 }
 
 p{
+	font-family: 'Playfair Display', serif;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 400;
+}
+
+a{
+	    color: #245A50;
+    font-weight: 700;
 }
 
 .Menu{
@@ -90,10 +120,46 @@ p{
 	padding-right: 18%;
 }
 
+.WebsiteButton{
+	width: 320px;
+	height: 50px;
+	color: #EAEAEA;
+	background: white;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	border: none; 
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+button{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.WebsiteButton:hover{
+	background-color: #EAEAEA;
+	color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-color: white; 
+	outline: none;
+}
+
+.WebsiteButton:focus{
+	outline: none;
+}
+
+
+
 .ButtonWhite{
 	width: 320px;
 	height: 50px;
-	color: #21468B;
+	color: #667EFF;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -104,7 +170,7 @@ p{
 .ButtonWhiteIntro{
 	width: 320px;
 	height: 50px;
-	color: #21468B;
+	color: #667EFF;
 	background: white;
 	font-size: 16px;
 	font-weight: 700;
@@ -116,7 +182,7 @@ p{
 }
 
 .ButtonWhiteIntro:hover{
-	background-color: #21468B;
+	background-color: #667EFF;
 	color: white;
 	border-width: 3px;
 	border-style: solid;
@@ -133,7 +199,7 @@ p{
 	width: 320px;
 	height: 50px;
 	color: white;
-	background: #21468B;
+	background: #667EFF;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -142,10 +208,10 @@ p{
 
 .ButtonBlue:hover{
 	background-color: white;
-	color: #21468B;
+	color: #667EFF;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #21468B; 
+	border-color: #667EFF; 
 	outline: none;
 }
 
@@ -156,10 +222,11 @@ p{
 
 .Intro{
 	margin-top: 150px;
+
 }
 
 .Selfie{
-	margin-top: 150px;
+	margin-top: 0px;
 }
 
 
@@ -170,7 +237,21 @@ p{
 	max-width: 557px;
 }
 
+.white{
+	color: white;
+}
+
+.brown{
+	color: #453931;
+}
+
+.green{
+	color: #245A50;
+}
+
 .InfoRight{
+
+
 	padding-top: 75px;
 	padding-bottom: 0px; 
 	max-width: 557px;
@@ -179,16 +260,15 @@ p{
 h1{
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #21468B;
 }
 
 h2{
-	margin-top: 10px;
+	margin-top: 32px;
 	margin-bottom: 0px;
 }
 
 h3{
-	margin-top: 0px;
+	margin-top: 16px;
 	margin-bottom: 0px;
 }
 
@@ -213,518 +293,31 @@ h4{
 	height: 140px;
 }
 
-.AfbeeldingLinks{
-	float: left;
-}
-
-.AfbeeldingRechts{
-	float: right;
-}
-
-.ProjectButton{
-	width: 320px;
-	height: 50px;
-	font-size: 16px;
-	font-weight: 700;
-	text-align: center;
-	border: none;
-}
-
-.ProjectButton:hover{
-  background-color: white;
-  border-width: 3px;
-  border-style: solid;
-  outline: none;
-}
-
-.ContentLinks{
-	display: table-cell;
-	vertical-align: middle;
-	width: 575px;
-	height: 550px;
-	margin-top: 150px;
-	float: left;
-	position: relative;
-}
-
-.ContentRechts{
-	display: table-cell;
-	vertical-align: middle;
-	width: 575px;
-	height: 550px;
-	margin-top: 150px;
-	float: right;
-	position: relative;
-}
-
-
-
-.Center{
-	display: inline-block;
-	padding-left: 70px;
-  position: absolute;
-    top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-
-.ProjectTags{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 19px;
-	display: flex;
-	align-items: center;
-	margin-top: 0px;
-}
-
-.ProjectTitel{
-	margin-top: 0px;
-	margin-bottom: 16px;
-}
-
-.ProjectInfo{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 30px;
-}
-
-
-.ProjectTitel{
-	font-size: 64px;
-}
-
-
-#SoonTitel{
-font-family: 'Oswald', sans-serif;;
-font-style: normal;
-font-weight: 900;
-line-height: 54px;
-/* or 84% */
-display: flex;
-align-items: center;
-letter-spacing: -0.002em;
-}
-
-.SoonBlack{
-	color: #F77F00;
-	display: contents;
-}
-
-
-#Soon{
-	background-color: black;
-	color: white;
-}
-
-#Soon:hover{
-	color: black;
-	background-color: white;
-	border-color: black;
-}
-
-
-
-
-#KaasTitel{
-	font-family: 'PT Serif';
-	font-style: normal;
-	font-weight: 700;
-	line-height: 91.5%;
-	/* or 59px */
-	display: flex;
-	align-items: center;
-	color: #245A50;
-}
-
-.Brown{
-	color: #453931;
-	display: contents;
-}
-
-#Kaas{
-	color: white;
-	background: #245A50;
-}
-
-#Kaas:hover{
-	color: #245A50;
-	background-color: white;
-	border-color: #245A50;
-}
-
-
-#MidusaTitel{
-	font-family: 'PT Serif';
-	font-style: normal;
-	font-weight: 700;
-	line-height: 95.5%;
-	/* or 59px */
-	display: flex;
-	align-items: center;
-	color: black;
-}
-
-
-.Roze{
-	color: #FC57E1;
-	display: contents;
-}
-
-#Midusa{
-	background-color: black;
-	color: white;
-}
-
-#Midusa:hover{
-	color: black;
-	background-color: white;
-	border-color: black;
-}
-
-
-#KlandizieTitel{
-	font-family: 'Rochester';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 64px;
-	line-height: 82px;
-	display: flex;
-	align-items: center;
-
-}
-
-.Orange{
-	color: #D58628;
-	display: contents;
-}
-
-#Klandizie{
-	background-color: #D58628;
-	color: white;
-}
-
-#Klandizie:hover{
-	color: #D58628;
-	background-color: white;
-	border-color: #D58628;
-}
-
-
-#RijksoverheidTitel{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 91.5%;
-/* or 59px */
-display: flex;
-align-items: center;
-
-}
-
-.DarkBlue{
-	color: #1B4879;
-	display: contents;
-}
-
-.Black{
-	color: black;
-	display: contents;
-}
-
-
-#Rijksoverheid{
-	background-color: #1B4879;
-	color: white;
-}
-
-#Rijksoverheid:hover{
-	color: #1B4879;
-	background-color: white;
-	border-color: #1B4879;
-}
-
-
-#FamilySportsTitel{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 91.5%;
-/* or 59px */
-display: flex;
-align-items: center;
-
-}
-
-.FamilyGreen{
-	color: #5C7A37;
-	display: contents;
-}
-
-
-#FamilySports{
-	background-color: #5C7A37;
-	color: white;
-}
-
-#FamilySports:hover{
-	color: #5C7A37;
-	background-color: white;
-	border-color: #5C7A37;
-}
-
-
-#YCTitel{
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 900;
-line-height: 54px;
-/* or 84% */
-display: flex;
-align-items: center;
-letter-spacing: -0.002em;
-}
-
-.YCOrange{
-	color: #F77F00;
-	display: contents;
-}
-
-
-#YC{
-	background-color: #F77F00;
-	color: white;
-}
-
-#YC:hover{
-	color: #F77F00;
-	background-color: white;
-	border-color: #F77F00;
-}
-
-
-#JobbirdTitel{
-	font-family: 'Maven Pro';
-	font-style: normal;
-	font-weight: 900;
-	font-size: 64px;
-	line-height: 55px;
-	/* or 86% */
-	display: flex;
-	align-items: center;
-	letter-spacing: -0.03em;
-}
-
-.JobPink{
-	color: #FE0AF0;
-	display: contents;
-}
-
-#JobbirdButton{
-	background-color: #FE0AF0;
-	color: white;
-}
-
-#JobbirdButton:hover{
-	color: #FE0AF0;
-	background-color: white;
-	border-color: #FE0AF0;
-}
-
-
-#ANWBTitel{
-	font-family: 'Arimo';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 91.5%;
-	/* or 59px */
-	display: flex;
-	align-items: center;
-	color: #003D86;
-}
-
-#ANWB{
-	background-color: #FFCD00;
-	color: #003D86;
-}
-
-#ANWB:hover{
-	color: #FFCD00;
-	background-color: #003D86;
-	border-color: #003D86;
-}
-
-#HCITitel{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 91.5%;
-	/* or 59px */
-	display: flex;
-	align-items: center;
-	color: #DD204E;
-}
-
-#HCI{
-	background-color: #DD204E;
-	color: white;
-}
-
-#HCI:hover{
-	color: #DD204E;
-	background-color: white;
-	border-color: #DD204E;
-}
-
-#VelvetTitel{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 91.5%;
-	/* or 59px */
-	display: flex;
-	align-items: center;
-	color: #8A00E1;
-}
-
-#Velvet{
-	background-color: #8A00E1;
-	color: white;
-}
-
-#Velvet:hover{
-	color: #8A00E1;
-	background-color: white;
-	border-color: #8A00E1;
-}
-
-#WingmanTitel{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 91.5%;
-	/* or 59px */
-	display: flex;
-	align-items: center;
-	color: #D36F13;
-}
-
-#Wingman{
-	background-color: #D36F13;
-	color: white;
-}
-
-#Wingman:hover{
-	color: #D36F13;
-	background-color: white;
-	border-color: #D36F13;
-}
-
-#StibatTitel{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 91.5%;
-	/* identical to box height, or 59px */
-	display: flex;
-	align-items: center;
-	color: #627108;
-}
-
-#Stibat{
-	background-color: #627108;
-	color: white;
-}
-
-#Stibat:hover{
-	color: #627108;
-	background-color: white;
-	border-color: #627108;
-}
-
-#StibatInfo{
-	max-width: 470px;
-}
-
-#CoffeeInfo{
-	max-width: 470px;
-}
-
-
-#PhotographyTitel{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 91.5%;
-	/* or 59px */
-	display: flex;
-	align-items: center;
-	color: #000000;
-}
-
-#Photography{
-	background-color: #000000;
-	color: white;
-}
-
-#Photography:hover{
-	color: #000000;
-	background-color: white;
-	border-color: #000000;
-}
-
-#CoffeeTitel{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 91.5%;
-	/* identical to box height, or 59px */
-	display: flex;
-	align-items: center;
-	color: #9B672B;
-
-}
-
-#Coffee{
-	background-color: #9B672B;
-	color: white;
-}
-
-#Coffee:hover{
-	color: #9B672B;
-	background-color: white;
-	border-color: #9B672B;
-}
 
 .Inleiding{
-	margin-top: 60px;
+	margin-top: 80px;
 	margin-bottom: 0px;
-	max-width: 555px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 827px;
 	height: auto;
 	line-height: 30px;
+	color: black;
 }
+
+#Bold{
+	font-weight: 700;
+	font-size: 24px;
+	color: #245A50;
+}
+
 
 .flex-container{
 	margin: 0px;
 	padding: 0px;
 	display: flex;
 	align-content: flex-start;
-	justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
+	justify-content: center;
 }
 
 ul{
@@ -734,7 +327,14 @@ ul{
 .ProjectFlexbox{
 	padding-left: 18.5%;
 	padding-right: 18.5%;
+	margin-top: 0px;
 }
+
+.Uitleg{
+	flex-flow: row;
+}
+
+
 
 .Contact{
 	padding-left: 18.5%;
@@ -751,7 +351,8 @@ ul{
 }
 
 .imgdavepf{
-	padding-top: 150px;
+	margin-top: 100px;
+	width: 100%;
 }
 
 .Socials{
@@ -858,7 +459,7 @@ input[type=text], select, textarea {
 	padding-bottom: 20px; 
 	border: none; 
 	border-bottom: 3px solid black; 
-  	border-radius: 4px; 
+  	border-radius: 0px; 
   	box-sizing: border-box; 
   	margin-bottom: 16px; 
   	resize: vertical; 
@@ -866,6 +467,7 @@ input[type=text], select, textarea {
 	font-family: "Roboto", serif;
 	font-style: normal;
 	margin-bottom: 0px;
+	outline: none;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -873,7 +475,7 @@ input[type=submit] {
 	width: 320px;
 	height: 50px;
 	color: white;
-	background-color: #21468B;
+	background-color: #667EFF;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -883,12 +485,12 @@ input[type=submit] {
   	margin-bottom: 0px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a dark blue color */
 input[type=submit]:hover {
   	background-color: white;
   	border-width: 3px;
-  	color: #21468B;
-  	border-color: #21468B;
+  	color: #667EFF;
+  	border-color: #667EFF;
   	margin-bottom: 0px;
 }
 
@@ -922,14 +524,15 @@ input[type=submit]:hover {
 }
 
 footer{
-	background-color: #21468B;
-	color: white;
+	background-color: #EAEAEA;
+	color: #EAEAEA;
 }
 
 .FooterLink{
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
-	color: white;
+	color: black;
 	text-decoration: none;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -989,15 +592,8 @@ footer{
 }
 
 
-
-
-
-
-
-
-
 nav{
-  background: white;
+  background: #EAEAEA;
   margin-left: 18%;
   margin-right: 18%;
   padding: 0px;
@@ -1030,7 +626,7 @@ nav ul li.items:after{
   content: '';
   left: 0;
   bottom: 5px;
-  background: #21468B;
+  background: #453931;
   height: 2px;
   width: 100%;
 
@@ -1050,13 +646,13 @@ nav ul li.logo{
   user-select: none;
 }
 nav ul li a{
-  color: #21468B;
+  color: #453931;
   font-size: 18px;
   text-decoration: none;
   transition: .4s;
 }
 nav ul li:hover a{
-  color: #21468B;
+  color: #453931;
 }
 nav ul li i{
   font-size: 23px;
@@ -1068,48 +664,27 @@ nav ul li.btn.hide i:before{
   content: '\f00d';
 }
 
-@media screen and (max-width: 1830px) {
 
-	.flex-item1{
-		display: flex;
-		flex-direction: column;
-	}
-
-	.AfbeeldingLinks{
-		float: none;
-	}
-
-	.AfbeeldingRechts{
-		float: none;
-		order: 1;
-	}
-
-	.ContentLinks{
-		float:  left;
-		margin-top: 32px;
-		height: auto;
-		order: 2;
-	}	
-
-	.ContentRechts{
-		float:  right;
-		margin-top: 32px;
-		height: auto;
-	}	
-
-	.Center{
-		padding-left: 0px;
-		transform: translateY(-0%);
-		display: inline-block;
-		position: relative;
-	}
-
-
-
-
+.Beschrijving{
+	color: white;
+	flex-flow: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: space-between;
 
 }
 
+.Description{
+	width: 320px;
+	line-height: 30px;
+	min-width: 320px;
+	text-align: left;
+}
+
+.flex-item5{
+	margin-top: 100px;
+
+}
 
 
 
@@ -1168,10 +743,13 @@ nav ul li.btn.hide i:before{
 
 	.Inleiding{
 		text-align: left;
-		min-width: 555px;
-		max-width: 100%
+		max-width: 555px;
 	}
 	
+	.Uitleg{
+		flex-flow: column;
+	}
+
 	nav{
 		margin-left: auto;
 		margin-right: auto;
@@ -1182,8 +760,8 @@ nav ul li.btn.hide i:before{
     	padding-right: 18.5%;
 	}
 
-	.flex-item:nth-of-type(1) { order: 2; }
-	.flex-item:nth-of-type(2) { order: 1; }
+	.flex-item:nth-of-type(1) { order: 1; }
+	.flex-item:nth-of-type(2) { order: 2; }
 
 
 	.flex-item{
@@ -1231,7 +809,7 @@ nav ul li.btn.hide i:before{
 	}
 
 	.flex-container{
-		text-align: left;
+		text-align: center;
 	}
 
 	.InfoLeft{
@@ -1245,6 +823,34 @@ nav ul li.btn.hide i:before{
 
 
 }
+
+
+
+
+/* onderste tekst wordt gecentered */
+@media screen and (max-width: 1523px) {
+	.Description{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+
+@media screen and (max-width: 1050px) {
+	.Description{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+	}
+
+	.ProjectFlexbox{
+		 margin-top: 0px;
+	}	
+}
+/* onderste tekst wordt gecentered */
+
+
+
 
 /* navbalk to menu */
 @media all and (max-width: 950px){
@@ -1291,78 +897,6 @@ nav ul li.btn.hide i:before{
 
 }
 
-@media screen and (max-width: 920px) {
-	.ContentRechts{
-		margin-top: 15px;
-		margin-bottom: 100px;
-		width: 320px;
-		height: auto;
-	}
-
-	.ContentLinks{
-		margin-top: 15px;
-		margin-bottom: 80px;
-		width: 320px;
-		height: auto;
-	}
-
-	.ProjectTitel{
-		font-size: 48px;
-	}
-
-	#RijksoverheidTitel{
-		font-size: 48px;
-	}
-	
-	#FamilySportsTitel{
-		font-size: 48px;
-	}
-
-	#YCTitel{
-		line-height: 40px;
-	}
-
-	#JobbirdTitel{
-		font-size: 48px;
-		line-height: 40px;
-	}
-
-	#KlandizieTitel{
-		font-size: 56px;
-	}
-	
-	#ANWBTitel{
-		font-size: 48px;
-	}
-
-	#HCITitel{
-		font-size: 48px;
-	}
-
-	#VelvetTitel{
-		font-size: 48px;
-	}
-
-	#WingmanTitel{
-		font-size: 48px;
-	}
-
-	#StibatTitel{
-		font-size: 48px;
-	}
-
-	#PhotographyTitel{
-		font-size: 48px;
-	}
-
-	#CoffeeTitel{
-		font-size: 48px;
-	}
-
-}
-
-
-
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 900px) {
@@ -1373,20 +907,29 @@ nav ul li.btn.hide i:before{
 	}
 
 	h1{
-		font-size: 55px;
-		min-width: 320px;
+		font-size: 48px;
 		max-width: 100%;
 		line-height: 110%;
-		text-align: left;
+		text-align: center;
 	}
 
 	h2{
-		font-size: 22px;
+		font-size: 18px;
 		line-height: 26px;
-		text-align: left;
+		text-align: center;
+	}
+	
+	.WebsiteButton{
+		margin-top: 35px;
+		margin-bottom: 0px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-
+	a{
+		text-decoration: none;
+	}
 
 	.Explain{
 		padding-left: 5.5%;
@@ -1401,12 +944,20 @@ nav ul li.btn.hide i:before{
 	footer{
 		padding-left: 5.5%;
 		padding-right: 5.5%;
+		margin-top: 100px;
 	}
 
 	input[type=text], select, textarea {
 		width: 100%;
 	}
 
+	.RowDiv{
+		margin-top: 60px;
+	}
+
+	#RowImage{
+		margin-top: 40px;
+	}
 
 	.MenuBalk{
 		padding-right: 5.5%;
@@ -1416,7 +967,6 @@ nav ul li.btn.hide i:before{
 
 		height: 110px;
 	}
-
 
 	.flex-container{
 		max-width: 100%;
@@ -1438,8 +988,8 @@ nav ul li.btn.hide i:before{
 	}
 
 	.ProjectFlexbox{
-	    padding-left: 5.5%; 
-	    padding-right: 5.5%;
+	    padding-left: 0%; 
+	    padding-right: 0%;
 	}
 
 	.Contact{
@@ -1450,9 +1000,13 @@ nav ul li.btn.hide i:before{
 	}
 
 	.Inleiding{
-		height: auto;
-		min-width: 320px;
-	    max-width: 100%;
+			height: auto;
+			min-width: 320px;
+	    max-width: 555px;
+	    padding-left: 5.5%;
+    	padding-right: 5.5%;
+    	margin-bottom: 0px;
+    	margin-top: 100px;
 	}
 
 
@@ -1464,13 +1018,13 @@ nav ul li.btn.hide i:before{
 
 
 	.flex-item{
-		margin-left: 5.5%
+		margin-left: 5.5%;
 		margin-right: 5.5%;
 	}
 
 
-	.flex-item:nth-of-type(1) { order: 2; }
-	.flex-item:nth-of-type(2) { order: 1; }
+	.flex-item:nth-of-type(1) { order: 1; }
+	.flex-item:nth-of-type(2) { order: 2; }
 
 	.flex-item2:nth-of-type(1) { order: 2; }
 	.flex-item2:nth-of-type(2) { order: 1; }
@@ -1479,17 +1033,15 @@ nav ul li.btn.hide i:before{
 	.flex-item3:nth-of-type(2) { order: 2; }
 
 	.Selfie{
-		margin-top: 60px;
+		margin-top: 100px;
 		text-align: center;
 	}
 
 	.Intro{
-		margin-top: 20px;
+		margin-top: 50px;
 		max-width: 100%;
 		padding-left: 5.5%;
 	    padding-right: 5.5%;
-
-
 	}
 
 	.topnav a{
@@ -1533,9 +1085,9 @@ nav ul li.btn.hide i:before{
 	}
 
 	.imgdavepf{
-		width: 320px;
-		height: 320px;
-		padding-top: 35px;
+		width: 100%;
+		height: auto;
+		margin-top: 100px;
 	}
 
 	.ButtonBlue{
@@ -1590,8 +1142,21 @@ nav ul li.btn.hide i:before{
 		padding-left: 0px;
 		padding-right: 0px;
 		margin-left: auto;
+		margin-top: 50px;
 		margin-right: auto;
 	}
+
+	.Image-box{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: auto;
+		margin-top: 0px;
+		margin-right: auto;
+	}
+
+
+
+
 
 
 	nav ul li.btn{
@@ -1616,4 +1181,11 @@ nav ul li.btn.hide i:before{
 }
 
 
+@media screen and (max-width: 690px) {
 
+	#HeaderImage{
+		margin-top: 50px;
+	}
+
+
+}

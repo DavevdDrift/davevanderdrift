@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 html, body{
 	margin: 0px;
@@ -520,8 +521,38 @@ align-items: center;
 }
 
 
+#SoonTitel{
+font-family: 'Oswald', sans-serif;;
+font-style: normal;
+font-weight: 900;
+line-height: 54px;
+/* or 84% */
+display: flex;
+align-items: center;
+letter-spacing: -0.002em;
+}
+
+.SoonBlack{
+	color: #F77F00;
+	display: contents;
+}
+
+
+#Soon{
+	background-color: black;
+	color: white;
+}
+
+#Soon:hover{
+	color: black;
+	background-color: white;
+	border-color: black;
+}
+
+
+
 #YCTitel{
-font-family: 'Work Sans';
+font-family: 'Oswald', sans-serif;;
 font-style: normal;
 font-weight: 900;
 line-height: 54px;
